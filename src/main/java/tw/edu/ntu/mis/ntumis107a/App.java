@@ -6,6 +6,8 @@ package tw.edu.ntu.mis.ntumis107a;
  */
 public class App {
 	public static void main(String[] args) {
+		
 		System.out.println("Hello World!");
+		
 	}
 }
