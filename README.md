@@ -8,5 +8,5 @@ This is the project for NTU MIS course 107-1.
 * 李季陽
 * 程芝榆
 * 黃俊翰
-*
+* Gary Lee
 *
