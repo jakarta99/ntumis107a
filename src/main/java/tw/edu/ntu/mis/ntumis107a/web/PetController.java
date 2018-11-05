@@ -13,13 +13,13 @@ import tw.edu.ntu.mis.ntumis107a.entity.Pet;
 public class PetController {
 	
 	@Autowired
-	private PetDao petdao;
+	private PetDao petDao;
 	
 	@RequestMapping("/pet")
 	
 	public String listPage() {
 		
-		List<Pet> pets = petdao.findAll();
+		List<Pet> pets = petDao.findAll();
 		
 		String html ="";
 		
