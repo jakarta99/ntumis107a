@@ -23,7 +23,7 @@ public class BallController {
 		String html = "";
 		
 		for(Ball i:balls) {
-			html += "names="+i.getName()+"code="+i.getCode()+"<br/>";
+			html += "names="+i.getName()+"   code="+i.getCode()+"<br/>";
 		}
 		return html;
 	}
