@@ -1,9 +1,27 @@
 package tw.edu.ntu.mis.ntumis107a.entity;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="PET")
 public class Pet {
-	private Long id;
-	private String code;
+	
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	@Column(columnDefinition="bigserial")
+	private Long id;  //long integar
+	
+	@Column(name="CODE")
+	private String code;  //isbnCode
+	
+	@Column(name="NAME")
 	private String name;
+
 	
 	@Override
 	public String toString() {
