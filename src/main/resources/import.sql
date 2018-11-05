@@ -10,3 +10,6 @@ INSERT INTO DRINK(code, name) VALUES('AAA-004', 'coke');
 INSERT INTO DRINK(code, name) VALUES('AAA-005', 'sprite');
 INSERT INTO DRINK(code, name) VALUES('AAA-006', 'fanta');
 
+INSERT INTO BALL (code,name)VALUES('001','baseball');
+INSERT INTO BALL (code,name)VALUES('002','basketball');
+INSERT INTO BALL (code,name)VALUES('003','volleyball');
