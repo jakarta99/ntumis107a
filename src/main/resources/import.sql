@@ -5,3 +5,6 @@ INSERT INTO BOOK(code, name) VALUES('AAA-003', 'Happy to Learn Java EE');
 INSERT INTO DRINK(code, name) VALUES('AAA-004', 'coke');
 INSERT INTO DRINK(code, name) VALUES('AAA-005', 'sprite');
 INSERT INTO DRINK(code, name) VALUES('AAA-006', 'fanta');
+
+INSERT INTO FOOD (code,name) VALUES ('A','Udon')
+INSERT INTO FOOD (code,name) VALUES ('B','Hot Pot')
