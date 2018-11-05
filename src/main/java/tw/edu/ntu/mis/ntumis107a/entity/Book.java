@@ -12,7 +12,7 @@ import javax.persistence.Table;
 public class Book {
 
 	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(columnDefinition="bigserial")
 	private Long id;	// long integer
 	

@@ -13,7 +13,7 @@ import javax.persistence.Table;
 public class Movie {
 	
 	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(columnDefinition="bigserial")
 	private Long id;
 	
