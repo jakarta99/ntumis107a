@@ -18,7 +18,18 @@ public class BookController {
 	@RequestMapping("/book")
 	public String listPage() {
 		
-		List<Book> books = bookDao.findAll();
+		Book book4 = new Book();
+		book4.setCode("AAA-004");
+		book4.setName("Happy to learn Economics");
+		
+		bookDao.save(book4);
+		
+		Book book2 = bookDao.findById(2L).get();
+		book2.setName("Happy to learn Python");
+		//bookDao.save(book2);
+		
+		
+		List<Book> books = bookDao.findByNameLike("Happy%");
 		
 		String html = "";
 		
