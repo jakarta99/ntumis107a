@@ -13,3 +13,5 @@ INSERT INTO DRINK(code, name) VALUES('AAA-006', 'fanta');
 INSERT INTO BALL (code,name)VALUES('001','baseball');
 INSERT INTO BALL (code,name)VALUES('002','basketball');
 INSERT INTO BALL (code,name)VALUES('003','volleyball');
+
+INSERT INTO RESTAURANT (name,location,opentime,closetime)VALUES('椰林燒臘','大一女','11:00','14;00');
