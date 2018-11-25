@@ -8,9 +8,9 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity 
-@Table(name="MEATID")
+@Table(name="MEATCATEGORY")
 
-public class MeatID {
+public class MeatCategory {
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
@@ -22,7 +22,7 @@ public class MeatID {
 	
 	@Override
 	public String toString() {
-		return "MeatID [id=" +id+ ", name=" +name+"]";
+		return "MeatCategory [id=" +id+ ", name=" +name+"]";
 	}
 	public Long getID() {
 		return id;
