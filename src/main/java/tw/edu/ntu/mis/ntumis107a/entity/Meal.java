@@ -30,7 +30,7 @@ public class Meal {
 	private String meatcategoryid;
 	
 	@Column(name="PRICE")
-	private String price;
+	private Long price;
 	
 	@Override
 	public String toString() {
@@ -66,10 +66,10 @@ public class Meal {
 	public void setMeatcategoryid(String meatcategoryid) {
 		this.meatcategoryid=meatcategoryid;
 	}
-	public String getPrice() {
+	public Long getPrice() {
 		return price;
 	}
-	public void setPrice(String price) {
+	public void setPrice(Long price) {
 		this.price=price;
 	}
 	
