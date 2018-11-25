@@ -5,7 +5,11 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.Table; 
+import javax.persistence.Table;
+
+import tw.edu.ntu.mis.ntumis107a.dao.MealDao;
+import tw.edu.ntu.mis.ntumis107a.dao.RestaurantDao;
+
 import java.util.*;
 import java.lang.*;
 
@@ -13,7 +17,6 @@ import java.lang.*;
 @Table(name="RESTAURANT")
 
 public class Restaurant {
-	private MealDao mealdao;
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)

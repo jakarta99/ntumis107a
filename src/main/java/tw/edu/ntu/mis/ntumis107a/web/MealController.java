@@ -25,10 +25,12 @@ public class MealController {
 		
 		String html = "";
 		
-		Set<Meal>targetmeal=meal.findMealByMaincourseid("");
-				
-		for(Meal meal:meals) {
-			html += "name="+meal.getName()+"<br/>";
+		for (Meal meal:meals) {
+			html+= "name="+meal.getName()+"<br/>";
+		}
+		
+		return html;
+		
 	}
 	
 	
