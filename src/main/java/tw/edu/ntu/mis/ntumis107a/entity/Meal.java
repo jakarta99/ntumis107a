@@ -23,18 +23,18 @@ public class Meal {
 	@Column(name="RESTAURANTID")
 	private String restaurantid;
 	
-	@Column(name="MAINCOURSEID")
-	private String maincourseid;
+	@Column(name="CATEGORYID")
+	private String categoryid;
 	
-	@Column(name="MEATID")
-	private String meatid;
+	@Column(name="MEATCATEGORYID")
+	private String meatcategoryid;
 	
 	@Column(name="PRICE")
 	private String price;
 	
 	@Override
 	public String toString() {
-		return "Meal [id=" +id+ ", name=" +name+ ", restaurantid=" +restaurantid+ ", maincourseid=" +maincourseid+ ", meaidt=:" +meatid+ ", price=" +price+ "]";
+		return "Meal [id=" +id+ ", name=" +name+ ", restaurantid=" +restaurantid+ ", categoryid=" +categoryid+ ", meatcategoryid=:" +meatcategoryid+ ", price=" +price+ "]";
 	}
 	public Long getID() {
 		return id;
@@ -54,17 +54,17 @@ public class Meal {
 	public void setRestaurantid(String restaurantid) {
 		this.restaurantid=restaurantid;
 	}
-	public String getMaincourseid() {
-		return maincourseid;
+	public String getCategoryid() {
+		return categoryid;
 	}
-	public void setMaincourseid(String maincourseid) {
-		this.maincourseid=maincourseid;
+	public void setCategoryid(String categoryid) {
+		this.categoryid=categoryid;
 	}
-	public String getMeatid() {
-		return meatid;
+	public String getMeatcategoryid() {
+		return meatcategoryid;
 	}
-	public void setMeatid(String meatid) {
-		this.meatid=meatid;
+	public void setMeatcategoryid(String meatcategoryid) {
+		this.meatcategoryid=meatcategoryid;
 	}
 	public String getPrice() {
 		return price;
