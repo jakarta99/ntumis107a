@@ -1,4 +1,4 @@
-package test;
+package tw.edu.ntu.mis.ntumis107a.test;
 
 import java.util.List;
 
@@ -7,22 +7,22 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class BallController {
+public class MovieController {
 	
 	@Autowired
-	private BallDao ballDao;
+	private MovieDao movieDao;
 	
-	@RequestMapping("/ball")
-	public String listPage() {
+	@RequestMapping("/movie")
+	public String listpage() {
 		
-		List<Ball> balls =ballDao.findAll();
+		List<Movie> movies = movieDao.findAll();
 		
 		String html = "";
 		
-		for(Ball i:balls) {
-			html += "names="+i.getName()+"   code="+i.getCode()+"<br/>";
+		for(Movie movie:movies) {
+			html += "name="+movie.getName()+"<br/>";
 		}
+		
 		return html;
 	}
-	
 }

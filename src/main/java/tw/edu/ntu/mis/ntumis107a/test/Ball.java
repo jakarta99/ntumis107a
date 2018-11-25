@@ -1,4 +1,4 @@
-package test;
+package tw.edu.ntu.mis.ntumis107a.test;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

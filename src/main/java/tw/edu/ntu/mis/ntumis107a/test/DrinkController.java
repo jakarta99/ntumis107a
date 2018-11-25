@@ -1,4 +1,4 @@
-package test;
+package tw.edu.ntu.mis.ntumis107a.test;
 
 import java.util.List;
 
@@ -7,28 +7,23 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class FoodController {
-	
+public class DrinkController {
+
 	@Autowired
-	private FoodDao foodDao;
+	private DrinkDao drinkDao;
 	
-	@RequestMapping("/food")
+	@RequestMapping("/drink")
 	public String listPage() {
 		
-		List<Food> foods =foodDao.findAll();
+		List<Drink> drinks = drinkDao.findAll();
 		
 		String html = "";
 		
-		for (Food food:foods) { 
-			html += "name="+food.getName()+"<br/>";
-		
-
+		for(Drink drink:drinks) {
+			html += "name="+drink.getName()+"<br/>";
 		}
-				
-		return html;
 		
+		
+		return html;
 	}
-	
-	
-	
 }

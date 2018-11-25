@@ -1,19 +1,18 @@
-package test;
+package tw.edu.ntu.mis.ntumis107a.test;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.Table; 
+import javax.persistence.Table;
 
 @Entity
-@Table(name="MOVIE")
-
-public class Movie {
+@Table(name="DRINK")
+public class Drink {
 	
 	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@GeneratedValue(strategy=GenerationType.AUTO)
 	@Column(columnDefinition="bigserial")
 	private Long id;
 	
@@ -25,7 +24,7 @@ public class Movie {
 	
 	@Override
 	public String toString() {
-		return "Movie [id=" + id + ", code=" + code + ", name=" + name + "]";
+		return "Drink [id=" + id + ", code=" + code + ", name=" + name + "]";
 	}
 	public Long getId() {
 		return id;
@@ -46,4 +45,5 @@ public class Movie {
 		this.name = name;
 	}
 	
+
 }
