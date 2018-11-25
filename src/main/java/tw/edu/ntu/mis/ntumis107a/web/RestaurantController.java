@@ -1,6 +1,7 @@
 package tw.edu.ntu.mis.ntumis107a.web;
 
 import java.util.List;
+import java.util.Set;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,6 +15,7 @@ public class RestaurantController {
 	
 	@Autowired
 	private RestaurantDao restaurantDao;
+	private Restaurant restaurant;
 	
 	@RequestMapping("/restaurant")
 	public String listpage() {
@@ -21,6 +23,9 @@ public class RestaurantController {
 		List<Restaurant> restaurants = restaurantDao.findAll();
 		
 		String html = "";
+
+		Set<Restaurant> targetRestaurant = restaurant.findRestaurantByMeal("牛肉麵");
+		
 		
 		for(Restaurant restaurant:restaurants) {
 			html += "name="+restaurant.getName()+"<br/>";

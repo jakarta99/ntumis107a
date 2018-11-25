@@ -29,14 +29,13 @@ public class BookController {
 		//bookDao.save(book2);
 		
 		
-		List<Book> books = bookDao.findByNameLike("Happy%");
+		List<Book> books = bookDao.findByNameLike("%to%");
 		
 		String html = "";
 		
 		for(Book book:books) {
-			html += "name="+book.getName()+"<br/>";
+			html += "ugly name="+book.getName()+"<br/>";
 		}
-		
 		
 		return html;
 	}
