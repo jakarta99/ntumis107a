@@ -1,4 +1,4 @@
-package tw.edu.ntu.mis.ntumis107a.entity;
+package test;
 
 public class Pet {
 	private Long id;
