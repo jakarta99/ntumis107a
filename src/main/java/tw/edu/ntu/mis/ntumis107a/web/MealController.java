@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import tw.edu.ntu.mis.ntumis107a.dao.MealDao;
 import tw.edu.ntu.mis.ntumis107a.entity.Meal;
 import tw.edu.ntu.mis.ntumis107a.entity.Restaurant;
+import tw.edu.ntu.mis.ntumis107a.test.Book;
 
 
 @RestController
@@ -20,6 +21,14 @@ public class MealController {
 	
 	@RequestMapping("/meal")
 	public String listpage() {
+		
+		Meal meal1 = new Meal();
+		meal1.setName("豬排飯");
+		meal1.setCategoryid("1");
+		meal1.setMeatcategoryid("1");
+		meal1.setPrice(100L);
+		
+		mealDao.save(meal1);
 		
 		List <Meal>meals=mealDao.findAll();
 		
