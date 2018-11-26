@@ -25,9 +25,6 @@ public class RestaurantController {
 		
 		String html = "";
 
-		//Set<Restaurant> targetRestaurant = restaurant.findRestaurantByMeal("牛肉麵");
-
-		
 		for(Restaurant restaurant:restaurants) {
 			html += "name="+restaurant.getName()+"<br/>";
 		}
