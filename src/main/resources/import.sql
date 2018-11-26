@@ -29,8 +29,8 @@ INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('不�
 INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('巨無霸義式海鮮義大利麵','5','麵','霸王蟹','199');
 
 INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('比司多','小福','07:00','14:00');
-INSERT INTO RESTAURANT (name,location,opention,closetime) VALUES ('四海遊龍','活大','10:00','20:00');
-INSERT INTO RESTAURANT (name,location,opention,closetime) VALUES ('無名麵攤','118巷','10:00','20:00');
-INSERT INTO RESTAURANT (name,location,opention,closetime) VALUES ('暖呼呼火鍋舖','公館','17:00','24:00');
-INSERT INTO RESTAURANT (name,location,opention,closetime) VALUES ('吃飽飽義大利麵','公館','10:00','22:00');
-INSERT INTO RESTAURANT (name,location,opention,closetime) VALUES ('高級牛排館','溫州街','17:00','22:00');
+INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('四海遊龍','活大','10:00','20:00');
+INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('無名麵攤','118巷','10:00','20:00');
+INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('暖呼呼火鍋舖','公館','17:00','24:00');
+INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('吃飽飽義大利麵','公館','10:00','22:00');
+INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('高級牛排館','溫州街','17:00','22:00');
