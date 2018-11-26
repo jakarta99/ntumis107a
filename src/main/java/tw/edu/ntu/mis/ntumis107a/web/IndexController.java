@@ -46,13 +46,13 @@ public class IndexController {
 		Random ran = new Random();
 		int choose=(int)ran.nextInt(2);
 
-		List<Meal>meals=mealDao.findByID((Long)choose);
+		/*List<Meal>meals=mealDao.findByID((Long)choose);*/
 		
 		String html = "";
 		
-		for (Meal meal:meals) {
+		/*for (Meal meal:meals) {
 			html+= "name="+meal.getName()+"<br/>";
-		}
+		}*/
 		
 		return html;
 		
