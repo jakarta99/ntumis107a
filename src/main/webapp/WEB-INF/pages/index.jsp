@@ -17,12 +17,12 @@
 <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"/>
 
 <img src="/images/yahoo-logo.png"/>
-<button id="surpriseButton" onclick="javascript:location.href='/choose-price'">Surpise!</button>
-<button id="surpriseButton" onclick="javascript:location.href='/test1'">SkySpiriT</button>
-<button id="surpriseButton" onclick="javascript:location.href='/test2'">Nala</button>
-<button id="surpriseButton" onclick="javascript:location.href='/test3'">shinyen</button>
-<button id="surpriseButton" onclick="javascript:location.href='/test4'">lauren</button>
-<button id="surpriseButton" onclick="javascript:location.href='/test5'">sunny</button>
+<button id="surpriseButton" onclick="javascript:location.href='/choose-price'">Surprise!</button>
+<button id="testButton" onclick="javascript:location.href='/test1'">SkySpiriT</button>
+<button id="testButton" onclick="javascript:location.href='/test2'">Nala</button>
+<button id="testButton" onclick="javascript:location.href='/test3'">shinyen</button>
+<button id="testButtonn" onclick="javascript:location.href='/test4'">lauren</button>
+<button id="testButton" onclick="javascript:location.href='/test5'">sunny</button>
 
 </body>
 </html>
