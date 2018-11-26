@@ -18,6 +18,12 @@ import java.lang.*;
 
 public class Restaurant {
 	
+	private MealDao mealdao;
+	private Restaurant rest;
+	
+	private RestaurantDao restaurantdao;
+	List<Restaurant> restaurants=restaurantdao.findAll();
+	
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(columnDefinition="bigserial")
@@ -70,13 +76,19 @@ public class Restaurant {
 	public void setClosetime(Long closetime) {
 		this.closetime = closetime;
 	}
+	private Restaurant IDbiangshen(Long restaurantid) {
+		for(Restaurant restaurant:restaurants) {
+			if(restaurantid == restaurant.getId())
+				return restaurant;
+		}
+		return null;
+	}
 	public Set<Restaurant> findRestaurantByMeal(String mealName){
 		Set<Restaurant> targetRestaurant = new HashSet<>();
 		List<Meal> meals = mealdao.findAll();
 		for(Meal meal:meals) {
 			if( meal.getName().contains(mealName)==true ) {
-//				方法名稱再確認
-				targetRestaurant.add( meal.getRestaurantName() );
+				targetRestaurant.add( rest.IDbiangshen(meal.getRestaurantid()) );
 			}
 		}
 		return targetRestaurant;
