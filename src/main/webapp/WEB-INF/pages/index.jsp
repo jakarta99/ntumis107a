@@ -17,7 +17,7 @@
 <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"/>
 
 <img src="/images/yahoo-logo.png"/>
-<button id="surpriseButton" onclick="/choose-price">Surpise!</button>
+<button id="surpriseButton" onclick="javascript:location.href='/choose-price'">Surpise!</button>
 
 
 
