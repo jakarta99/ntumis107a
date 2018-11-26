@@ -1,5 +1,6 @@
 package tw.edu.ntu.mis.ntumis107a.web;
 
+import java.util.List;
 import java.util.Random;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -43,6 +44,8 @@ public class IndexController {
 		System.out.println("Get beginPrice="+beginPrice+", endPrice="+endPrice);
 		
 		// Dao find Meal >= beginPrice and <= endPrice
+		
+		List<Meal>meals = mealDao.findByPriceGreaterThanEqualAndPriceLessThanEqual(101, 200);
 		
 		// Get List<Meal>
 		
