@@ -17,3 +17,7 @@ INSERT INTO BALL (code,name)VALUES('001','baseball');
 INSERT INTO BALL (code,name)VALUES('002','basketball');
 INSERT INTO BALL (code,name)VALUES('003','volleyball');
 
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('超騙錢滷肉飯','1','飯','豬肉','120');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('不好吃羊肉爐','4','飯','羊肉','160');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('巨無霸義式海鮮義大利麵','6','麵','霸王蟹','199');
+
