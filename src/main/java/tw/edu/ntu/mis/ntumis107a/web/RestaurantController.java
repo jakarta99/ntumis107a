@@ -1,7 +1,8 @@
 package tw.edu.ntu.mis.ntumis107a.web;
 
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
-import java.util.Set;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -24,8 +25,8 @@ public class RestaurantController {
 		
 		String html = "";
 
-		Set<Restaurant> targetRestaurant = restaurant.findRestaurantByMeal("牛肉麵");
-		
+		//Set<Restaurant> targetRestaurant = restaurant.findRestaurantByMeal("牛肉麵");
+
 		
 		for(Restaurant restaurant:restaurants) {
 			html += "name="+restaurant.getName()+"<br/>";
