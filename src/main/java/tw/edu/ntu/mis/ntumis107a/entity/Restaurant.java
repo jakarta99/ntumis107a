@@ -76,6 +76,7 @@ public class Restaurant {
 	public void setClosetime(Long closetime) {
 		this.closetime = closetime;
 	}
+<<<<<<< HEAD
 	private Restaurant IDbiangshen(Long restaurantid) {
 		for(Restaurant restaurant:restaurants) {
 			if(restaurantid == restaurant.getId())
@@ -93,5 +94,8 @@ public class Restaurant {
 		}
 		return targetRestaurant;
 	}
+=======
+
+>>>>>>> branch 'master' of https://github.com/jakarta99/ntumis107a.git
 	
  }

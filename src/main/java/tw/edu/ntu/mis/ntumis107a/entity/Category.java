@@ -7,9 +7,15 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+/**
+ * 
+ * Food Category.
+ * 
+ * @author gary
+ *
+ */
 @Entity
 @Table(name="CATEGORY")
-
 public class Category{
 	
 	@Id

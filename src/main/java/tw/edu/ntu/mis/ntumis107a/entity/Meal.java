@@ -7,9 +7,13 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+/**
+ * Meal 
+ * @author gary
+ *
+ */
 @Entity
 @Table(name="MEAL")
-
 public class Meal {
 
 	@Id
