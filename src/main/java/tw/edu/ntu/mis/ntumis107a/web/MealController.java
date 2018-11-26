@@ -6,7 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import tw.edu.ntu.mis.ntumis107a.dao.CategoryDao;
 import tw.edu.ntu.mis.ntumis107a.dao.MealDao;
+import tw.edu.ntu.mis.ntumis107a.entity.Category;
 import tw.edu.ntu.mis.ntumis107a.entity.Meal;
 import tw.edu.ntu.mis.ntumis107a.entity.Restaurant;
 import tw.edu.ntu.mis.ntumis107a.test.Book;
@@ -18,6 +20,9 @@ public class MealController {
 	@Autowired
 	private MealDao mealDao;
 	private Meal meal;
+	private CategoryDao categoryDao;
+	private Category category;
+	
 	
 	@RequestMapping("/meal")
 	public String listpage() {
@@ -29,6 +34,11 @@ public class MealController {
 		meal1.setPrice(100L);
 		
 		mealDao.save(meal1);
+		
+		Category category1 = new Category();
+		category1.setName("飯"); 
+
+		categoryDao.save(category1);
 		
 		List<Meal>meals=mealDao.findByCategoryIs("1");
 		
