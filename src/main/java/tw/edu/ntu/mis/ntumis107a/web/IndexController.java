@@ -44,8 +44,9 @@ public class IndexController {
 		
 		
 		Random ran = new Random();
+		int choose=(int)ran.nextInt(2);
 
-		List<Meal>meals=mealDao.findByID(ran.nextInt(42));
+		List<Meal>meals=mealDao.findByID((Long)choose);
 		
 		String html = "";
 		
@@ -54,6 +55,6 @@ public class IndexController {
 		}
 		
 		return html;
-		return "<h1>Hello World!</h1><br><h2>Hello World!</h2><br><h3>Hello World!</h3><br><h4>Hello World!</h4><br>";
+		
 	}
 }
