@@ -70,16 +70,6 @@ public class Restaurant {
 	public void setClosetime(Long closetime) {
 		this.closetime = closetime;
 	}
-	public Set<Restaurant> findRestaurantByMeal(String mealName){
-		Set<Restaurant> targetRestaurant = new HashSet<>();
-		List<Meal> meals = mealdao.findAll();
-		for(Meal meal:meals) {
-			if( meal.getName().contains(mealName)==true ) {
-//				方法名稱再確認
-				targetRestaurant.add( meal.getRestaurantName() );
-			}
-		}
-		return targetRestaurant;
-	}
+
 	
  }
