@@ -26,7 +26,7 @@ public class Meal {
 	private String name;
 	
 	@Column(name="RESTAURANTID")
-	private String restaurantid;
+	private Long restaurantId;
 	
 	@Column(name="CATEGORY")
 	private String category;
@@ -36,46 +36,59 @@ public class Meal {
 	
 	@Column(name="PRICE")
 	private Integer price;
-	
+
 	@Override
 	public String toString() {
-		return "Meal [id=" +id+ ", name=" +name+ ", restaurantid=" +restaurantid+ ", category=" +category+ ", meatcategory=:" +meatcategory+ ", price=" +price+ "]";
+		return "Meal [id=" + id + ", name=" + name + ", restaurantId=" + restaurantId + ", category=" + category
+				+ ", meatcategory=" + meatcategory + ", price=" + price + "]";
 	}
-	public Long getID() {
+
+	public Long getId() {
 		return id;
 	}
+
 	public void setId(Long id) {
 		this.id = id;
 	}
+
 	public String getName() {
 		return name;
 	}
+
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getRestaurantid() {
-		return restaurantid;
+
+	public Long getRestaurantId() {
+		return restaurantId;
 	}
-	public void setRestaurantid(String restaurantid) {
-		this.restaurantid=restaurantid;
+
+	public void setRestaurantId(Long restaurantId) {
+		this.restaurantId = restaurantId;
 	}
+
 	public String getCategory() {
 		return category;
 	}
+
 	public void setCategory(String category) {
-		this.category=category;
+		this.category = category;
 	}
+
 	public String getMeatcategory() {
 		return meatcategory;
 	}
+
 	public void setMeatcategory(String meatcategory) {
-		this.meatcategory=meatcategory;
+		this.meatcategory = meatcategory;
 	}
+
 	public Integer getPrice() {
 		return price;
 	}
+
 	public void setPrice(Integer price) {
-		this.price=price;
+		this.price = price;
 	}
 	
 }

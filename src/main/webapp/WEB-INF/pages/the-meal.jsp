@@ -11,7 +11,7 @@
 <h1>JSTL</h1>
 
 Suggestion: ${meal.name} ; <br/>
-The Restaurant: ${meal.restaurantid }
+The Restaurant: id :${meal.restaurantid } , ${restaurant.id} . ${restaurant.name } in ${restaurant.location }
 
 
 

@@ -30,45 +30,57 @@ public class Restaurant {
 	private String location;
 	
 	@Column(name="OPENTIME")
-	private Long opentime;
+	private String opentime;
 	
 	@Column(name="CLOSETIME")
-	private Long closetime;
-	
-	
+	private String closetime;
+
 	@Override
 	public String toString() {
-		return "Restaurant [id=" + id + ", name=" + name + ", location=" + location + "]";
+		return "Restaurant [id=" + id + ", name=" + name + ", location=" + location + ", opentime=" + opentime
+				+ ", closetime=" + closetime + "]";
 	}
+
 	public Long getId() {
 		return id;
 	}
+
 	public void setId(Long id) {
 		this.id = id;
 	}
+
 	public String getName() {
 		return name;
 	}
+
 	public void setName(String name) {
 		this.name = name;
 	}
+
 	public String getLocation() {
 		return location;
 	}
+
 	public void setLocation(String location) {
 		this.location = location;
 	}
-	public Long getOpentime() {
+
+	public String getOpentime() {
 		return opentime;
 	}
-	public void setOpentime(Long opentime) {
+
+	public void setOpentime(String opentime) {
 		this.opentime = opentime;
 	}
-	public Long getClosetime() {
+
+	public String getClosetime() {
 		return closetime;
 	}
-	public void setClosetime(Long closetime) {
+
+	public void setClosetime(String closetime) {
 		this.closetime = closetime;
 	}
+	
+	
 
  }

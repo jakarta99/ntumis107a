@@ -5,6 +5,7 @@ import java.util.Random;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
@@ -39,32 +40,29 @@ public class IndexController {
 	}
 	
 	@RequestMapping("/choose-meal")
-	public String choosePrice(@RequestParam("beginPrice") Integer beginPrice, @RequestParam("endPrice") Integer endPrice) {
+	public String choosePrice(@RequestParam("beginPrice") Integer beginPrice, @RequestParam("endPrice") Integer endPrice, Model model) {
 		
 		System.out.println("Get beginPrice="+beginPrice+", endPrice="+endPrice);
 		
 		// Dao find Meal >= beginPrice and <= endPrice
 		
-		List<Meal>meals = mealDao.findByPriceGreaterThanEqualAndPriceLessThanEqual(101, 200);
-		
-		// Get List<Meal>
+		List<Meal> meals = mealDao.findByPriceGreaterThanEqualAndPriceLessThanEqual(beginPrice, endPrice);
 		
 		// Random choose one
-		
-
 		
 		Random rand = new Random();
 		Meal theOne = meals.get(rand.nextInt(meals.size()));
 		
 		
 		// theOne.restaurantid to find Restaurant
-		String<Restaurant> restaurant = restaurantDao.findById(id)
+		Restaurant mealRestaurant = restaurantDao.findById(theOne.getRestaurantId()).get();
 		
-		Restaurant mealRestaurant = null;
-
 		// return to JSPs(HTML)
+		model.addAttribute("meal", theOne);
+		model.addAttribute("restaurant", mealRestaurant);
 		
-		return "/choose-meal";
+		
+		return "/the-meal";
 		
 	}
 	@RequestMapping("/test1")
