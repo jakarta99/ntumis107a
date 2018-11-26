@@ -39,7 +39,7 @@ public class Meal {
 	
 	@Override
 	public String toString() {
-		return "Meal [id=" +id+ ", name=" +name+ ", restaurantid=" +restaurantid+ ", category=" +category+ ", meatcategory=:" +meatcategory+ ", price=" +price+ "]";
+		return "Meal [id=" +id+ ", name=" +name+ ", restaurantid=" +restaurantid+ ", categoryid=" +categoryid+ ", meatcategoryid=:" +meatcategoryid+ ", price=" +price+ "]";
 	}
 	public Long getID() {
 		return id;
