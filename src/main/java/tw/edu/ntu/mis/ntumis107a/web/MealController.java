@@ -35,7 +35,7 @@ public class MealController {
 		meal1.setName("豬排飯");
 		meal1.setCategoryid("1");
 		meal1.setMeatcategoryid("1");
-		meal1.setPrice(100L);
+		meal1.setPrice(100);
 		
 		mealDao.save(meal1);
 		
