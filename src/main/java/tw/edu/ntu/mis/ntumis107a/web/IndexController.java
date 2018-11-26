@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import tw.edu.ntu.mis.ntumis107a.dao.MealDao;
 import tw.edu.ntu.mis.ntumis107a.entity.Meal;
+import tw.edu.ntu.mis.ntumis107a.entity.Restaurant;
 
 @Controller
 public class IndexController {
@@ -45,9 +46,14 @@ public class IndexController {
 		Random rand = new Random();
 		Meal theOne = meals.get(rand.nextInt(meals.size()));
 		
+		
+		// theOne.restaurantid to find Restaurant
+		
+		Restaurant mealRestaurant = null;
+		
 		// return to JSPs(HTML)
 		model.addAttribute("meal", theOne);
-		
+		model.addAttribute("restaurant", mealRestaurant);
 		
 		return "/the-meal";
 		
