@@ -8,9 +8,19 @@ import tw.edu.ntu.mis.ntumis107a.entity.Meal;
 
 
 public interface MealDao extends JpaRepository<Meal,Long>{
+<<<<<<< HEAD
 	public List<Meal>findByIDIs(Long id);
 	public List<Meal>findByPriceLessThanEqual(Long price);
 	public List<Meal>findByCategoryIs(String category);
 	public List<Meal>findByMeatCategoryIs(String meatcategory);
 	
+=======
+	//public List<Meal>findByIDIs(Long id);
+	//public List<Meal>findByPriceLessThanEqual(Long price);
+	//public List<Meal>findByCategoryIs(String category);
+	//public List<Meal>findByMeatCategoryIs(String meatcategory);
+	
+	
+	//public List<Meal> findByPriceGreaterThanEqualAndPriceLessThanEqual(Long price1, Long price2);
+>>>>>>> branch 'master' of https://github.com/jakarta99/ntumis107a.git
 }

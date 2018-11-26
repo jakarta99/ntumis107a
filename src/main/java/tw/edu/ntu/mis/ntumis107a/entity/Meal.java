@@ -7,9 +7,19 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+<<<<<<< HEAD
 @Entity
 @Table(name="MEAL")
 
+=======
+/**
+ * Meal 
+ * @author gary
+ *
+ */
+@Entity
+@Table(name="MEAL")
+>>>>>>> branch 'master' of https://github.com/jakarta99/ntumis107a.git
 public class Meal {
 
 	@Id

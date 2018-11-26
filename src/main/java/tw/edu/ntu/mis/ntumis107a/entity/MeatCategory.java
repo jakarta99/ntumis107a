@@ -7,9 +7,20 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+<<<<<<< HEAD
 @Entity 
 @Table(name="MEATCATEGORY")
 
+=======
+/**
+ * Meat Category
+ * 
+ * @author gary
+ *
+ */
+@Entity 
+@Table(name="MEATCATEGORY")
+>>>>>>> branch 'master' of https://github.com/jakarta99/ntumis107a.git
 public class MeatCategory {
 
 	@Id

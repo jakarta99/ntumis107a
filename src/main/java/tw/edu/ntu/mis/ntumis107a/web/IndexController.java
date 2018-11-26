@@ -6,14 +6,17 @@ import java.util.Random;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 
+<<<<<<< HEAD
 import tw.edu.ntu.mis.ntumis107a.dao.MealDao;
 import tw.edu.ntu.mis.ntumis107a.dao.RestaurantDao;
 import tw.edu.ntu.mis.ntumis107a.entity.Meal;
 import tw.edu.ntu.mis.ntumis107a.entity.Restaurant;
 
 @RestController
+=======
+@Controller
+>>>>>>> branch 'master' of https://github.com/jakarta99/ntumis107a.git
 public class IndexController {
 	/*
 	@Autowired
@@ -23,6 +26,7 @@ public class IndexController {
 	private RestaurantDao restaurantDao;*/
 	
 	@RequestMapping("/")
+<<<<<<< HEAD
 	String home() {
 		
 		/*
@@ -55,6 +59,11 @@ public class IndexController {
 		}*/
 		
 		return html;
+=======
+	public String home() {
+		System.out.println("Hello in Home");
+		return "/index";  // --> /WEB-INF/pages/index.jsp
+>>>>>>> branch 'master' of https://github.com/jakarta99/ntumis107a.git
 		
 	}
 }
