@@ -1,25 +1,12 @@
 package tw.edu.ntu.mis.ntumis107a.web;
 
-import java.util.List;
-import java.util.Random;
-
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-
-import tw.edu.ntu.mis.ntumis107a.dao.MealDao;
-import tw.edu.ntu.mis.ntumis107a.entity.Meal;
-import tw.edu.ntu.mis.ntumis107a.entity.Restaurant;
 
 @Controller
 public class IndexController {
 
-	@Autowired
-	private MealDao mealDao;
-	
-	
 	@RequestMapping("/")
 	public String home() {
 		System.out.println("Hello in Home");
@@ -33,29 +20,19 @@ public class IndexController {
 	}
 	
 	@RequestMapping("/choose-meal")
-	public String choosePrice(@RequestParam("beginPrice") Integer beginPrice, @RequestParam("endPrice") Integer endPrice, Model model) {
+	public String choosePrice(@RequestParam("beginPrice") Integer beginPrice, @RequestParam("endPrice") Integer endPrice) {
 		
 		System.out.println("Get beginPrice="+beginPrice+", endPrice="+endPrice);
 		
 		// Dao find Meal >= beginPrice and <= endPrice
 		
-		List<Meal> meals = mealDao.findByPriceGreaterThanEqualAndPriceLessThanEqual(beginPrice, endPrice);
+		// Get List<Meal>
 		
 		// Random choose one
 		
-		Random rand = new Random();
-		Meal theOne = meals.get(rand.nextInt(meals.size()));
-		
-		
-		// theOne.restaurantid to find Restaurant
-		
-		Restaurant mealRestaurant = null;
-		
 		// return to JSPs(HTML)
-		model.addAttribute("meal", theOne);
-		model.addAttribute("restaurant", mealRestaurant);
 		
-		return "/the-meal";
+		return "/choose-meal";
 		
 	}
 	@RequestMapping("/test1")
@@ -77,5 +54,5 @@ public class IndexController {
 	@RequestMapping("/test5")
 	public String test5() {
 		return "/test5";
-	}
+	}i
 }
