@@ -18,9 +18,11 @@
 
 <img src="/images/yahoo-logo.png"/>
 <button id="surpriseButton" onclick="javascript:location.href='/choose-price'">Surpise!</button>
-
-
-
+<button id="surpriseButton" onclick="javascript:location.href='/test1'">SkySpiriT</button>
+<button id="surpriseButton" onclick="javascript:location.href='/test2'">Nala</button>
+<button id="surpriseButton" onclick="javascript:location.href='/test3'">shinyen</button>
+<button id="surpriseButton" onclick="javascript:location.href='/test4'">lauren</button>
+<button id="surpriseButton" onclick="javascript:location.href='/test5'">sunny</button>
 
 </body>
 </html>
