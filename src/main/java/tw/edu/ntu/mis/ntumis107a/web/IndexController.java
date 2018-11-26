@@ -14,7 +14,7 @@ public class IndexController {
 	
 	@RequestMapping("/")
 	public String home() {
-		
+		System.out.println("Hello in Home");
 		return "/index";  // --> /WEB-INF/pages/index.jsp
 		
 	}

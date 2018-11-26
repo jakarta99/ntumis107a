@@ -18,11 +18,6 @@ import java.lang.*;
 
 public class Restaurant {
 	
-	private MealDao mealdao;
-	private Restaurant rest;
-	
-	private RestaurantDao restaurantdao;
-	List<Restaurant> restaurants=restaurantdao.findAll();
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)

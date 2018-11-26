@@ -17,7 +17,4 @@ INSERT INTO BALL (code,name)VALUES('001','baseball');
 INSERT INTO BALL (code,name)VALUES('002','basketball');
 INSERT INTO BALL (code,name)VALUES('003','volleyball');
 
-<<<<<<< HEAD
-=======
-INSERT INTO RESTAURANT (name,location,opentime,closetime)VALUES('椰林燒臘','大一女','11:00','14;00');
->>>>>>> branch 'master' of https://github.com/jakarta99/ntumis107a.git
+
