@@ -3,12 +3,24 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>SurpriseMeal</title>
 </head>
 <body>
 
+<b>This is bold</b>
+<i>Italic</i>
+<u>UnderLine</u>
 
-Hello JSP
+
+<h1>SurpriseMeal</h1>
+
+<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"/>
+
+<img src="/images/yahoo-logo.png"/>
+<button id="surpriseButton">Surpise!</button>
+
+
+
 
 </body>
 </html>
