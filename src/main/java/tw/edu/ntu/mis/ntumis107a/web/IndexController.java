@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import tw.edu.ntu.mis.ntumis107a.dao.MealDao;
+import tw.edu.ntu.mis.ntumis107a.dao.RestaurantDao;
 import tw.edu.ntu.mis.ntumis107a.entity.Meal;
 import tw.edu.ntu.mis.ntumis107a.entity.Restaurant;
 
@@ -18,6 +19,9 @@ public class IndexController {
 
 	@Autowired
 	private MealDao mealDao;
+	
+	@Autowired
+	private RestaurantDao restaurantDao;	
 	
 	
 	@RequestMapping("/")
@@ -48,6 +52,7 @@ public class IndexController {
 		
 		
 		// theOne.restaurantid to find Restaurant
+		String<Restaurant> restaurant = restaurantDao.findById(id)
 		
 		Restaurant mealRestaurant = null;
 		
