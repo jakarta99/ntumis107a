@@ -3,10 +3,28 @@ package tw.edu.ntu.mis.ntumis107a.web;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+<<<<<<< HEAD
+
+import tw.edu.ntu.mis.ntumis107a.dao.MealDao;
+import tw.edu.ntu.mis.ntumis107a.dao.RestaurantDao;
+import tw.edu.ntu.mis.ntumis107a.entity.Meal;
+import tw.edu.ntu.mis.ntumis107a.entity.Restaurant;
+=======
+>>>>>>> branch 'master' of https://github.com/jakarta99/ntumis107a.git
 
 @Controller
 public class IndexController {
 
+<<<<<<< HEAD
+	@Autowired
+	private MealDao mealDao;
+	
+	@Autowired
+	private RestaurantDao restaurantDao;	
+	
+	
+=======
+>>>>>>> branch 'master' of https://github.com/jakarta99/ntumis107a.git
 	@RequestMapping("/")
 	public String home() {
 		System.out.println("Hello in Home");
@@ -30,6 +48,18 @@ public class IndexController {
 		
 		// Random choose one
 		
+<<<<<<< HEAD
+		Random rand = new Random();
+		Meal theOne = meals.get(rand.nextInt(meals.size()));
+		
+		
+		// theOne.restaurantid to find Restaurant
+		String<Restaurant> restaurant = restaurantDao.findById(id)
+		
+		Restaurant mealRestaurant = null;
+		
+=======
+>>>>>>> branch 'master' of https://github.com/jakarta99/ntumis107a.git
 		// return to JSPs(HTML)
 		
 		return "/choose-meal";
