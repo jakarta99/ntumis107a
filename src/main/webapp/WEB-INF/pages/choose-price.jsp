@@ -9,9 +9,9 @@
 <body>
 
 <ul>
-	<li> <button id="100Button">1~100</button> </li>
-	<li> <button id="200Button">101~200</button> </li>
-	<li> <button id="201Button">201+</button> </li>
+	<li> <button id="1Button" onclick="javascript:location.href='/choose-meal?beginPrice=1&endPrice=100'">1~100</button> </li>
+	<li> <button id="101Button" onclick="javascript:location.href='/choose-meal?beginPrice=101&endPrice=200'">101~200</button> </li>
+	<li> <button id="201Button" onclick="javascript:location.href='/choose-meal?beginPrice=201&endPrice=10000'">201+</button> </li>
 
 </ul>
 
