@@ -15,4 +15,10 @@ public class IndexController {
 		System.out.println("Hello in Home");
 		return "/index";  // --> /WEB-INF/pages/index.jsp
 	}
+	
+	@RequestMapping("/choose-price")
+	public String choosePrice() {
+		return "/choose-price";
+		
+	}
 }
