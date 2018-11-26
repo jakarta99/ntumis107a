@@ -8,50 +8,33 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="BOOK")
-public class Book {
+@Table(name="CATEGORY")
 
-	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)
-	@Column(columnDefinition="bigserial")
-	private Long id;	// long integer
+public class Category{
 	
-	@Column(name="CODE")
-	private String code; // isbnCode
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@Column(columnDefinition="bigserial")
+	private Long id;
 	
 	@Column(name="NAME")
 	private String name;
-
+	
 	@Override
 	public String toString() {
-		return "Book [id=" + id + ", code=" + code + ", name=" + name + "]";
+		return "Category [id=" +id+ ", name=" +name+"]";
 	}
-
-	public Long getId() {
+	public Long getID() {
 		return id;
 	}
-
 	public void setId(Long id) {
-		this.id = id;
+		this.id=id;
 	}
-
-	public String getCode() {
-		return code;
-	}
-
-	public void setCode(String code) {
-		this.code = code;
-	}
-
 	public String getName() {
 		return name;
 	}
-
 	public void setName(String name) {
-		this.name = name;
+		this.name=name;
 	}
-	
-	
-	
-	
 }
+
