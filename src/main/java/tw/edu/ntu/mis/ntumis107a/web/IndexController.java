@@ -15,17 +15,17 @@ import tw.edu.ntu.mis.ntumis107a.entity.Restaurant;
 
 @RestController
 public class IndexController {
-	
+	/*
 	@Autowired
 	private MealDao mealDao;
 	
 	@Autowired
-	private RestaurantDao restaurantDao;
+	private RestaurantDao restaurantDao;*/
 	
 	@RequestMapping("/")
 	String home() {
 		
-		
+		/*
 		Meal meal1 = new Meal();
 		meal1.setName("豬排飯");
 		meal1.setCategoryid("1");
@@ -46,7 +46,7 @@ public class IndexController {
 		Random ran = new Random();
 		int choose=(int)ran.nextInt(2);
 
-		/*List<Meal>meals=mealDao.findByID((Long)choose);*/
+		List<Meal>meals=mealDao.findByID((Long)choose);*/
 		
 		String html = "";
 		
