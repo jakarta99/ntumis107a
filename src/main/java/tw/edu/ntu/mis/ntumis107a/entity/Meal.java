@@ -28,11 +28,11 @@ public class Meal {
 	@Column(name="RESTAURANTID")
 	private String restaurantid;
 	
-	@Column(name="CATEGORYID")
-	private String categoryid;
+	@Column(name="CATEGORY")
+	private String category;
 	
-	@Column(name="MEATCATEGORYID")
-	private String meatcategoryid;
+	@Column(name="MEATCATEGORY")
+	private String meatcategory;
 	
 	@Column(name="PRICE")
 	private Integer price;
@@ -59,23 +59,23 @@ public class Meal {
 	public void setRestaurantid(String restaurantid) {
 		this.restaurantid=restaurantid;
 	}
-	public String getCategoryid() {
-		return categoryid;
+	public String getCategory() {
+		return category;
 	}
-	public void setCategoryid(String categoryid) {
-		this.categoryid=categoryid;
+	public void setCategory(String category) {
+		this.category=category;
 	}
-	public String getMeatcategoryid() {
-		return meatcategoryid;
+	public String getMeatcategory() {
+		return meatcategory;
 	}
-	public void setMeatcategoryid(String meatcategoryid) {
-		this.meatcategoryid=meatcategoryid;
+	public void setMeatcategory(String meatcategory) {
+		this.meatcategory=meatcategory;
 	}
 	public Integer getPrice() {
 		return price;
 	}
 	public void setPrice(Integer price) {
-		this.price=price;
+		this.price=price;s
 	}
 	
 }
