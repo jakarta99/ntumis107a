@@ -76,26 +76,6 @@ public class Restaurant {
 	public void setClosetime(Long closetime) {
 		this.closetime = closetime;
 	}
-<<<<<<< HEAD
-	private Restaurant IDbiangshen(Long restaurantid) {
-		for(Restaurant restaurant:restaurants) {
-			if(restaurantid == restaurant.getId())
-				return restaurant;
-		}
-		return null;
-	}
-	public Set<Restaurant> findRestaurantByMeal(String mealName){
-		Set<Restaurant> targetRestaurant = new HashSet<>();
-		List<Meal> meals = mealdao.findAll();
-		for(Meal meal:meals) {
-			if( meal.getName().contains(mealName)==true ) {
-				targetRestaurant.add( rest.IDbiangshen(meal.getRestaurantid()) );
-			}
-		}
-		return targetRestaurant;
-	}
-=======
 
->>>>>>> branch 'master' of https://github.com/jakarta99/ntumis107a.git
 	
  }

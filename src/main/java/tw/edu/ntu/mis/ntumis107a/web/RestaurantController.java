@@ -24,7 +24,7 @@ public class RestaurantController {
 		
 		String html = "";
 
-		Set<Restaurant> targetRestaurant = restaurant.findRestaurantByMeal("牛肉麵");
+		//Set<Restaurant> targetRestaurant = restaurant.findRestaurantByMeal("牛肉麵");
 		
 		
 		for(Restaurant restaurant:restaurants) {
