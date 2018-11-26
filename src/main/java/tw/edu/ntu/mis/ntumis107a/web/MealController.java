@@ -49,7 +49,7 @@ public class MealController {
 
 		meatcategoryDao.save(meatcategory1);
 		
-		List<Meal>meals=mealDao.findByCategoryIs("1");
+		List<Meal> meals = mealDao.findAll();
 		
 		String html = "";
 		

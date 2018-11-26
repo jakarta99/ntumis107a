@@ -12,5 +12,4 @@ public interface MealDao extends JpaRepository<Meal,Long>{
 	public List<Meal>findByPriceLessThanEqual(Long price);
 	public List<Meal>findByCategoryIs(String category);
 	public List<Meal>findByMeatCategoryIs(String meatcategory);
-	
 }
