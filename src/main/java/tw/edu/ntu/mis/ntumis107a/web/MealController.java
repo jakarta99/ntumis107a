@@ -33,8 +33,8 @@ public class MealController {
 		
 		Meal meal1 = new Meal();
 		meal1.setName("豬排飯");
-		meal1.setCategoryid("1");
-		meal1.setMeatcategoryid("1");
+		meal1.setCategory("1");
+		meal1.setMeatcategory("1");
 		meal1.setPrice(100);
 		
 		mealDao.save(meal1);

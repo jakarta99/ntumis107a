@@ -54,5 +54,5 @@ public class IndexController {
 	@RequestMapping("/test5")
 	public String test5() {
 		return "/test5";
-	}i
+	}
 }
