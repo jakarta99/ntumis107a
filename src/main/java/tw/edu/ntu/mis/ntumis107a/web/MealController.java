@@ -49,11 +49,8 @@ public class MealController {
 
 		meatcategoryDao.save(meatcategory1);
 		
-<<<<<<< HEAD
-		List<Meal>meals=mealDao.findByCategoryIs("1");
-=======
 		List<Meal> meals = mealDao.findAll();
->>>>>>> branch 'master' of https://github.com/jakarta99/ntumis107a.git
+
 		
 		String html = "";
 		

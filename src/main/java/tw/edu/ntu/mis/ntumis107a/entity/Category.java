@@ -7,11 +7,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-<<<<<<< HEAD
-@Entity
-@Table(name="CATEGORY")
-
-=======
 /**
  * 
  * Food Category.
@@ -21,7 +16,6 @@ import javax.persistence.Table;
  */
 @Entity
 @Table(name="CATEGORY")
->>>>>>> branch 'master' of https://github.com/jakarta99/ntumis107a.git
 public class Category{
 	
 	@Id
