@@ -17,20 +17,20 @@ INSERT INTO BALL (code,name)VALUES('001','baseball');
 INSERT INTO BALL (code,name)VALUES('002','basketball');
 INSERT INTO BALL (code,name)VALUES('003','volleyball');
 
-INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('豬排漢堡','1','漢堡','豬肉','80');
-INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('招牌鍋貼','2','鍋貼','豬肉','60');
-INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('招牌乾麵','3','麵','豬肉','50');
+INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('豬肉漢堡','1','漢堡','豬肉','30');
+INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('招牌鍋貼','2','鍋貼','豬肉','50');
+INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('輕食養生鍋','3','麵','無肉','85');
 
-INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('麻辣火鍋','4','火鍋','豬肉或牛肉','250');
-INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('美式炭火牛排','6','排餐','牛肉','500');
+INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('鮮蔬雞塊蛋包飯','6','','雞肉','230');
+INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('部隊鍋','7','火鍋','豬肉+海鮮','300');
 
-INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('超騙錢滷肉飯','3','飯','豬肉','120');
-INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('不好吃羊肉爐','4','飯','羊肉','160');
-INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('巨無霸義式海鮮義大利麵','5','麵','霸王蟹','199');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('藜麥元氣和牛珍珠堡','4','漢堡','牛肉','110');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('紅心蛋包飯特餐','5','飯','無肉','130');
 
-INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('比司多','小福','07:00','14:00');
-INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('四海遊龍','活大','10:00','20:00');
-INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('無名麵攤','118巷','10:00','20:00');
-INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('暖呼呼火鍋舖','公館','17:00','24:00');
-INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('吃飽飽義大利麵','公館','10:00','22:00');
-INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('高級牛排館','溫州街','17:00','22:00');
+INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('比司多','小福','07:00','19:00');
+INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('四海遊龍','活大','11:00','20:00');
+INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('文湯武將','小福','11:00','20:00');
+INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('摩斯漢堡','小福','10:30','22:00');
+INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('幸好沒錯過你','台北市中正區羅斯福路四段78巷1弄5號','11:30','21:30');
+INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('大盛豬排','台北市中正區羅斯福路四段52巷16弄15-1號','11:30','21:00');
+INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('韓庭州','台北市大安區溫州街87號','11:00','22:00');
