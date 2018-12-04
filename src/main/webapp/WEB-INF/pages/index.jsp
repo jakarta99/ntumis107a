@@ -10,16 +10,33 @@
 	</head>
 	<body style='background-color:rgb(114,235,214)'>	
 
-	<div style='color:white;text-align:center;line-height:200px;margin:0px auto;font-size:50px;position: relative; transform:translateY(40%);font-family:fantasy;'>
+	<div style='color:white;text-align:center;line-height:200px;margin:0px auto;font-size:70px;position: relative; transform:translateY(40%);font-family:fantasy;'>
 		SurpriseMeal<span style='font-size:16px;'> . alpha</span>
 	</div>
 	
-	<div style='text-align:center;position: relative; transform:translateY(150%);'>
-		<button class='btn btn-info' id="surpriseButton" onclick="javascript:location.href='/choose-price'" style='width:500px;height:100px;background-color:rgb(66,204,231);font-family:微軟正黑體;font-size:36px;'>找<span style='color:rgb(255,252,102);'>驚喜</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img src="/images/patent-search-cutout.png" style=';width:60px;height:60px;'></button>
+	<div style='text-align:center;position:relative;left:0px;top:-100px;transform:translateY(150%);'>
+		<button class='btn btn-info' id="surpriseButton" onclick="javascript:location.href='/choose-price'" 
+		style='width:500px;height:100px;background-color:rgb(66,204,231);font-family:微軟正黑體;font-size:36px;'>
+		找<span style='color:rgb(255,252,102);'>驚喜</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img src="/images/patent-search-cutout.png" style=';width:60px;height:60px;'></button>
 	</div>
 	<div style='text-align:center;position: relative; transform:translateY(150%);'>
 		<button class='btn btn-info' id="mealButton" onclick="javascript:location.href='/meal'" style='width:500px;height:100px;background-color:rgb(66,204,231);font-family:微軟正黑體;font-size:36px;'>找<span style='color:rgb(255,252,102);'>餐點</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img src="/images/patent-search-cutout.png" style=';width:60px;height:60px;'></button>
 	</div>
+	
+	<div style='text-align:center;position:relative;left:-130px;top:-90px;transform:translateY(150%);'>
+		<button class='btn btn-info' id="RestaurantButton"
+		onclick="javascript:location.href='/type-name'" style='width:240px;height:100px;background-color:rgb(201,55,86);font-family:微軟正黑體; font-size:36px;'>
+		找<span style='color:rgb(255,252,102);'> 餐廳</span> </button>
+	</div>
+	
+	
+	<div style='text-align:center;position:relative;left:130px;top:-190px;transform:translateY(150%);'>
+		<button class='btn btn-info' id="MealButton"
+		onclick="javascript:location.href='/choose-maincourse'" style='width:240px;height:100px;background-color:rgb(255,166,49);font-family:微軟正黑體; font-size:36px;'>
+		找<span style='color:rgb(255,252,102);'> 餐點</span> </button>
+	</div>
+
+	
 	
 	
 	

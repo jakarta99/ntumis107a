@@ -65,6 +65,8 @@ public class IndexController {
 		return "/the-meal";
 		
 	}
+	
+	
 	@RequestMapping("/test1")
 	public String test1() {
 		return "/test1";
