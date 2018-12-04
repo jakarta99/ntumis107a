@@ -21,31 +21,19 @@
 	</div>
 
 	
-	
+
 	<div style='text-align:center;position:relative;left:0px;top:-90px;transform:translateY(150%);'>
 		<button class='btn btn-info' id="RestaurantButton"
-		onclick="javascript:location.href='/type-name'" style='width:240px;height:100px;background-color:rgb(201,55,86);font-family:微軟正黑體; font-size:36px;'>
+		onclick="javascript:location.href='/type-name'"
+		style='width:240px;height:100px;background-color:rgb(201,55,86);font-family:微軟正黑體; font-size:36px;'>
 		找<span style='color:rgb(255,252,102);'> 餐廳</span> </button>
 		&nbsp&nbsp&nbsp
 		<button class='btn btn-info' id="MealButton"
-		onclick="javascript:location.href='/choose-category'" style='width:240px;height:100px;background-color:rgb(255,166,49);font-family:微軟正黑體; font-size:36px;'>
+		onclick="javascript:location.href='/choose-category'"
+		style='width:240px;height:100px;background-color:rgb(255,166,49);font-family:微軟正黑體; font-size:36px;'>
 		找<span style='color:rgb(255,252,102);'> 餐點</span> </button>
-	
-	
 	</div>
-	
 
-	
-	
-
-	
-	
-	
-	
-	
-	
-	
-	
 	</body>
 	<footer style='position: absolute; bottom: 0;text-align:center;'>
 		<button id="testButton" onclick="javascript:location.href='/test1'">SkySpiriT</button>
