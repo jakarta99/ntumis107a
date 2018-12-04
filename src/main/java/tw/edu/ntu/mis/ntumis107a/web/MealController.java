@@ -29,7 +29,8 @@ public class MealController {
 	private RestaurantDao restaurantDao;
 	private Restaurant restaurant;
 	
-	@RequestMapping("/meal")
+	
+	@RequestMapping("/the-rice")
 	public String chooseMeal(@RequestParam("Category") String Category, Model model) {
 		
 		List<Meal> meals = mealDao.findByCategoryIs("飯");
@@ -46,7 +47,7 @@ public class MealController {
 		return "/the-rice";
 	}
 	
-	@RequestMapping("/meal")
+	@RequestMapping("/the-noodle")
 	public String chooseMeal1(@RequestParam("Category") String Category, Model model) {
 		
 		List<Meal> meals = mealDao.findByCategoryIs("麵");
@@ -63,7 +64,7 @@ public class MealController {
 		return "/the-noodle";
 	}
 	
-	@RequestMapping("/meal")
+	@RequestMapping("/the-other")
 	public String chooseMeal11(@RequestParam("Category") String Category, Model model) {
 		
 		List<Meal> meals = mealDao.findByCategoryIs("其他");

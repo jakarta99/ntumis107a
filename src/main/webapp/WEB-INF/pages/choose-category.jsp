@@ -15,13 +15,13 @@
 			ChooseCategory
 		</div>
 		<div style='text-align:center;position: relative; transform:translateY(30%);'>
-			<button style='width:200px;height:100px;background-color:rgb(66,204,231);font-family:FANTASY;font-size:36px;' class='btn btn-info' id="riceButton" onclick="javascript:location.href='/choose-category?Category=飯'">飯</button>
+			<button style='width:200px;height:100px;background-color:rgb(66,204,231);font-family:微軟正黑體;font-size:36px;' class='btn btn-info' id="riceButton" onclick="javascript:location.href='/choose-category?Category=飯'">飯</button>
 			<br/>
 			<br/>
-			<button style='width:200px;height:100px;background-color:rgb(66,204,231);font-family:FANTASY;font-size:36px;' class='btn btn-info' id="noodlesButton" onclick="javascript:location.href='/choose-category?Category=麵'">麵</button> 
+			<button style='width:200px;height:100px;background-color:rgb(66,204,231);font-family:微軟正黑體;font-size:36px;' class='btn btn-info' id="noodlesButton" onclick="javascript:location.href='/choose-category?Category=麵'">麵</button> 
 			<br />
 			<br/>
-			<button style='width:200px;height:100px;background-color:rgb(66,204,231);font-family:FANTASY;font-size:36px;' class='btn btn-info' id="othersButton" onclick="javascript:location.href='/choose-category?Category=其他'">其他</button> 
+			<button style='width:200px;height:100px;background-color:rgb(66,204,231);font-family:微軟正黑體;font-size:36px;' class='btn btn-info' id="othersButton" onclick="javascript:location.href='/choose-category?Category=其他'">其他</button> 
 			<br />
 			<br/>
 		</div>	
