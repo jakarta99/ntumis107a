@@ -21,6 +21,7 @@
 	</div>
 
 	
+	
 	<div style='text-align:center;position:relative;left:0px;top:-90px;transform:translateY(150%);'>
 		<button class='btn btn-info' id="RestaurantButton"
 		onclick="javascript:location.href='/type-name'" style='width:240px;height:100px;background-color:rgb(201,55,86);font-family:微軟正黑體; font-size:36px;'>
