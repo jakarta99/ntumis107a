@@ -15,18 +15,13 @@
 		What do you want to eat?
 	</div>
 	
-	<div style=' margin: auto;top:40px;transform:translateY(90%);'>
-		<form class='col-sm-5' style=' margin: auto;font-size:22px'>
+	<div style='margin:auto;text-align:center;position:relative;top:-50px;font-size:18px;transform:translateY(90%);'>
+		<form action="/action_page.php" target="_self">
 		Type in food name:
-		<input type="text" class=' form-control' name="firstname" >
+		<input type="text" name="MealName"><br><br>
+		<input type="submit" Value="Go!"
+		style='width:200PX;height:100px;background-color:rgb(66,204,231);font-family:FANTASY;font-size:36px;'>
 		</form>
-	</div>
-	
-	<div style='text-align:center;position:relative;top:60px;transform:translateY(50%);'>
-		<button class='btn btn-info' id="FindRestaurantButton"
-				onclick="javascript:location.href='/the-restaurant'" 
-				style='width:200PX;height:75px;background-color:rgb(66,204,231);font-family:FANTASY;font-size:36px;'>
-				GO!</button>
 	</div>
 	
 	</body>

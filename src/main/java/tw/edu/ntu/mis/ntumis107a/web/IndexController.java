@@ -77,6 +77,11 @@ public class IndexController {
 		return "/type-name";
 	}
 	
+	@RequestMapping("/the-restaurant")
+	public String TheRestaurant() {
+		return "the-restaurant";
+	}
+	
 	@RequestMapping("/test1")
 	public String test1() {
 		return "/test1";
