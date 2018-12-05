@@ -15,10 +15,10 @@
 		What do you want to eat?
 	</div>
 	
-	<div style='text-align:center;position:relative;top:30px;transform:translateY(50%);'>
-		<form>
-		type in food name:
-		<input type="text" name="firstname">
+	<div style=' margin: auto;top:40px;transform:translateY(90%);'>
+		<form class='col-sm-5' style=' margin: auto;font-size:22px'>
+		Type in food name:
+		<input type="text" class=' form-control' name="firstname" >
 		</form>
 	</div>
 	
