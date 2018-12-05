@@ -1,4 +1,4 @@
-package tw.edu.ntu.mis.ntumis107a.entity;
+package tw.edu.ntu.mis.ntumis107a.test;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -12,7 +12,7 @@ import javax.persistence.Table;
 public class Drink {
 	
 	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@GeneratedValue(strategy=GenerationType.AUTO)
 	@Column(columnDefinition="bigserial")
 	private Long id;
 	

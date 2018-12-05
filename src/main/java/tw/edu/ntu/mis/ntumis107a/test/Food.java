@@ -1,4 +1,4 @@
-package tw.edu.ntu.mis.ntumis107a.entity;
+package tw.edu.ntu.mis.ntumis107a.test;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -8,11 +8,11 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="DRINK")
-public class Drink {
+@Table(name="FOOD")
+public class Food {
 	
 	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@GeneratedValue(strategy=GenerationType.IDENTITY) 
 	@Column(columnDefinition="bigserial")
 	private Long id;
 	
@@ -24,7 +24,7 @@ public class Drink {
 	
 	@Override
 	public String toString() {
-		return "Drink [id=" + id + ", code=" + code + ", name=" + name + "]";
+		return "Food [id=" + id + ", code=" + code + ", name=" + name + "]";
 	}
 	public Long getId() {
 		return id;
@@ -45,5 +45,4 @@ public class Drink {
 		this.name = name;
 	}
 	
-
 }
