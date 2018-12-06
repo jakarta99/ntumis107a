@@ -15,12 +15,12 @@
 		What do you want to eat?
 	</div>
 	
-	<div style='margin:auto;text-align:center;position:relative;top:-50px;font-size:18px;transform:translateY(90%);'>
+	<div style='margin:auto;text-align:center;position:relative;top:-70px;font-size:18px;transform:translateY(90%);'>
 		<form action="/action_page.php" target="_self">
 		Type in food name:
 		<input type="text" name="MealName"><br><br>
 		<input type="submit" Value="Go!"
-		style='width:200PX;height:100px;background-color:rgb(66,204,231);font-family:FANTASY;font-size:36px;'>
+		style='width:150PX;height:70px;background-color:rgb(66,204,231);color:white;font-family:FANTASY;font-size:36px;'>
 		</form>
 	</div>
 	
