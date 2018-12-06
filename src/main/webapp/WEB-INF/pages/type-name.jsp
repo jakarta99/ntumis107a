@@ -16,9 +16,9 @@
 	</div>
 	
 	<div style='margin:auto;text-align:center;position:relative;top:-70px;font-size:18px;transform:translateY(90%);'>
-		<form action="/action_page.php" target="_self">
+		<form action="/search_restaurant" method="post">
 		Type in food name:
-		<input type="text" name="MealName"><br><br>
+		<input type="text" name="mealName"><br><br>
 		<input type="submit" Value="Go!"
 		style='width:150PX;height:70px;background-color:rgb(66,204,231);color:white;font-family:FANTASY;font-size:36px;'>
 		</form>
