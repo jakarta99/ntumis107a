@@ -17,7 +17,6 @@ import tw.edu.ntu.mis.ntumis107a.entity.Category;
 import tw.edu.ntu.mis.ntumis107a.entity.Meal;
 import tw.edu.ntu.mis.ntumis107a.entity.MeatCategory;
 import tw.edu.ntu.mis.ntumis107a.entity.Restaurant;
-import tw.edu.ntu.mis.ntumis107a.test.Book;
 
 
 @RestController
