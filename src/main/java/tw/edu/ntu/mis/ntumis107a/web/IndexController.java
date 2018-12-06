@@ -82,6 +82,11 @@ public class IndexController {
 		return "the-restaurant";
 	}
 	
+	@RequestMapping("/about-us")
+	public String AboutUs() {
+		return "about us";
+	}
+	
 	@RequestMapping("/test1")
 	public String test1() {
 		return "/test1";

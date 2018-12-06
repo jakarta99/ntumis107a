@@ -51,9 +51,9 @@
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron" style="background-image: url(https://urbanremedy.com/wp-content/uploads/MealPlan_Metta_PBG.jpg); background-size: 100%;">
         <div class="container">
-          <h1 class="display-3">Hello, world!</h1>
-          <p>Welcome SurpriseMeal Website, you can choose.....</p>
-          <p><a class="btn btn-primary btn-lg" href="/choose-price" role="button">Find Surprise &raquo;</a></p>
+          <h1 class="display-3" style='color:rgb(255,255,255);font-weight:700;'> Surprise Meal </h1>
+          <p style='color:rgb(255,255,255);font-weight:500;'> Welcome to SurpriseMeal Website, you can now choose what to eat! </p>
+          <p><a class="btn btn-secondary" href="/about-us" role="button"> About Us &raquo;</a></p>
         </div>
       </div>
 
@@ -61,19 +61,19 @@
         <!-- Example row of columns -->
         <div class="row">
           <div class="col-md-4">
-            <h2>Find Restuarant</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div>
-          <div class="col-md-4">
             <h2>Find Meal</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            <p>找餐點，循序漸進尋找適合你的餐點!<br> 首先選主食(飯、麵；其他)，再來選肉類(牛、豬、雞、羊、海鮮、其他)，最後選價格(0~100,101~200,200+)<br> 最後會列出適合你的餐點喔!</p>
+            <p><a class="btn btn-secondary" href="/choose-category" role="button">Go! &raquo;</a></p>
           </div>
           <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            <h2>Find Surprise</h2>
+            <p>找驚喜，隨機產生一個餐點，讓你天天都活在驚喜裡面(亂講的哈哈)</p><br><br><br>
+            <p><a class="btn btn-warning btn-lg" href="/choose-price" role="button">Go! &raquo;</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>Find Restaurant</h2>
+            <p>找餐廳，看看有哪些餐廳符合你的胃口!<br> 只要輸入你想吃的餐點類別，便會產生有供應此類餐點的餐廳喔!</p><br><br>
+            <p><a class="btn btn-secondary" href="type-name" role="button">Go! &raquo;</a></p>
           </div>
         </div>
 
