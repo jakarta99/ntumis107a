@@ -48,7 +48,7 @@
  --%>
     <main role="main">
 
-      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <!-- Main jumbotron for a primary marketing mes sage or call to action -->      
       <div class="jumbotron" style="background-image: url(https://urbanremedy.com/wp-content/uploads/MealPlan_Metta_PBG.jpg); background-size: 100%;">
         <div class="container">
           <h1 class="display-3" style='color:rgb(255,255,255);font-weight:700;'> Surprise Meal </h1>
@@ -84,7 +84,7 @@
     </main>
 
     <footer class="container">
-      <p>&copy; Company 2017-2018</p>
+      <p>&copy; Company 2017-2018 NTU MIS PROJECT</p>
     </footer>	
 	
 	
