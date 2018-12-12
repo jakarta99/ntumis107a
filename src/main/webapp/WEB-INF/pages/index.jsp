@@ -30,8 +30,8 @@
 	<body>
 
     <h1 class="site-heading text-center text-white d-none d-lg-block">
-      <span class="site-heading-upper text-primary mb-3">A Free Bootstrap 4 Business Theme</span>
-      <span class="site-heading-lower">Business Casual</span>
+      <span class="site-heading-upper text-primary mb-3">Surprise Meal</span> </br>
+      <span class="site-heading-lower">Let us surprise you!</span>
     </h1>
 
     <!-- Navigation -->
@@ -49,13 +49,13 @@
               </a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="about.html">About</a>
+              <a class="nav-link text-uppercase text-expanded" href="about.html">Find Surprise</a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="products.html">Products</a>
+              <a class="nav-link text-uppercase text-expanded" href="products.html">Find Meal</a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="store.html">Store</a>
+              <a class="nav-link text-uppercase text-expanded" href="store.html">Find Restaurant</a>
             </li>
           </ul>
         </div>
@@ -71,7 +71,7 @@
               <span class="section-heading-upper">NTU</span>
               <span class="section-heading-lower">Surprise Meal</span>
             </h2>
-            <p class="mb-3">Every cup of our quality artisan coffee starts with locally sourced, hand picked ingredients. Once you try it, our coffee will be a blissful addition to your everyday morning routine - we guarantee it!
+            <p class="mb-3"> Always wondering what to eat today? </br> Bored with eating the same meal over and over again? </br> Don't worry, we have you covered! </br> Just simply clicked the "Surprise Me!" button </br> and wait for a SURPRISE MEAL to make your day!
             </p>
             <div class="intro-button mx-auto">
               <a class="btn btn-primary btn-xl" href="#">Surprise Me!</a>
