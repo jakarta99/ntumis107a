@@ -43,7 +43,7 @@ public class IndexController {
 	public String chooseCategory() {
 	
 		
-		return "/choose-mealcategory";
+		return "/choose-category";
 		
 	}
 	
