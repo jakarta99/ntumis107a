@@ -5,7 +5,7 @@
 	
 	<body>
 
-    <jsp:include page="nav.jsp"/>
+    <jsp:include page="nav.jsp?navitem=homeItem"/>
 
     <section class="page-section clearfix">
       <div class="container">
