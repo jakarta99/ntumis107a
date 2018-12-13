@@ -25,7 +25,7 @@
               <a class="nav-link text-uppercase text-expanded" href="/choose-category">FindMeal</a>
             </li>
             <li class="nav-item px-lg-6">
-              <a class="nav-link text-uppercase text-expanded" href="/type-name">FindRestaurant</a>
+              <a class="nav-link text-uppercase text-expanded" href="/find-restaurant-by-meal">FindRestaurant</a>
             </li>
             <li class="nav-item px-lg-6">
               <a class="nav-link text-uppercase text-expanded" href="/about-us">AboutUs</a>
