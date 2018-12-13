@@ -13,9 +13,9 @@
     <main role="main">
 		<h1>Price Choose</h1>
 		<div>
-			<button type="button" class="btn btn-primary" onclick="javascript:location.href='/choose-mealcategory?Category=飯'">Rice</button>
-			<button type="button" class="btn btn-secondary" onclick="javascript:location.href='/choose-mealcategory?Category=麵'" >Noodles</button>
-			<button type="button" class="btn btn-secondary" onclick="javascript:location.href='/choose-mealcategory?Category=其他'" >Something Else</button>
+			<button type="button" class="btn btn-primary" onclick="javascript:location.href='/choose-mealcategory?Category=飯'">牛肉</button>
+			<button type="button" class="btn btn-secondary" onclick="javascript:location.href='/choose-mealcategory?Category=麵'" >豬肉</button>
+			<button type="button" class="btn btn-secondary" onclick="javascript:location.href='/choose-mealcategory?Category=其他'" >羊肉</button>
 			
 			<button type="button" class="btn btn-warning" onclick="javascript:location.href='/#'">CANCEL</button>
 		</div>	
