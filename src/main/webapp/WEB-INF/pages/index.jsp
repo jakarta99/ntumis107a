@@ -30,7 +30,7 @@
 	<body>
 
     <h1 class="site-heading text-center text-white d-none d-lg-block">
-      <span class=" " style='color:rgb(81,110,65)'>Surprise Meal</span> </br>
+      <span class="site-heading-upper text-primary mb-3" style='color:rgb(81,110,65)'>Surprise Meal</span> 
       <span class="site-heading-lower">Let us surprise you!</span>
     </h1>
 
