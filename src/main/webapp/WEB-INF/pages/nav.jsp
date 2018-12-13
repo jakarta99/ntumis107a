@@ -6,7 +6,7 @@
     </h1>
 
     <!-- Navigation -->
-    <nav class="navbar-default navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
       <div class="container">
         <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Function</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
