@@ -49,10 +49,10 @@
               </a>
             </li>
             <li class="nav-item px-lg-6">
-              <a class="nav-link text-uppercase text-expanded" href="about.html" stl>FindSurprise</a>
+              <a class="nav-link text-uppercase text-expanded" href="/choose-price">FindSurprise</a>
             </li>
             <li class="nav-item px-lg-6">
-              <a class="nav-link text-uppercase text-expanded" href="products.html">FindMeal</a>
+              <a class="nav-link text-uppercase text-expanded" href="/choose-category">FindMeal</a>
             </li>
             <li class="nav-item px-lg-6">
               <a class="nav-link text-uppercase text-expanded" href="store.html">FindRestaurant</a>
@@ -74,7 +74,7 @@
             <p class="mb-3"> Always wondering what to eat today? </br> Bored with eating the same meal over and over again? </br> Don't worry, we have you covered! </br> Just simply clicked the "Surprise Me!" button </br> and wait for a SURPRISE MEAL to make your day!
             </p>
             <div class="intro-button mx-auto">
-              <a class="btn btn-primary btn-xl" href="#">Surprise Me!</a>
+              <a class="btn btn-primary btn-lg" href="/choose-price">Surprise Me!</a>
             </div>
           </div>
         </div>

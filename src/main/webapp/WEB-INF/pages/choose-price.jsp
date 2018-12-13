@@ -53,7 +53,7 @@
 			<button type="button" class="btn btn-secondary" onclick="javascript:location.href='/choose-meal?beginPrice=101&endPrice=200'" >101~200</button>
 			<button type="button" class="btn btn-secondary" onclick="javascript:location.href='/choose-meal?beginPrice=201&endPrice=10000'" >201+</button>
 			
-			<button type="button" class="btn btn-warning" >CANCEL</button>
+			<button type="button" class="btn btn-warning" onclick="javascript:location.href='/#'">CANCEL</button>
 		</div>	
     </main>
 
