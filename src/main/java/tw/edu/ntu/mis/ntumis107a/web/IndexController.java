@@ -78,9 +78,9 @@ public class IndexController {
 		
 	}
 	
-	@RequestMapping("/type-name")
+	@RequestMapping("/find-restaurant-by-meal")
 	public String TypeName() {
-		return "/type-name";
+		return "/find-restaurant-by-meal";
 	}
 	
 	@RequestMapping("/type-name-new")
