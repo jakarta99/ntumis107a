@@ -41,7 +41,9 @@ public class IndexController {
 	
 	@RequestMapping("/choose-category")
 	public String chooseCategory() {
-		return "/choose-category";
+	
+		
+		return "/choose-mealcategory";
 		
 	}
 	
