@@ -55,7 +55,7 @@
               <a class="nav-link text-uppercase text-expanded" href="/choose-category">FindMeal</a>
             </li>
             <li class="nav-item px-lg-6">
-              <a class="nav-link text-uppercase text-expanded" href="store.html">FindRestaurant</a>
+              <a class="nav-link text-uppercase text-expanded" href="/type-name">FindRestaurant</a>
             </li>
           </ul>
         </div>
