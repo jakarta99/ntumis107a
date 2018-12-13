@@ -16,15 +16,15 @@
     <title>Sruprise Meal</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/business-casual.css" rel="stylesheet">
-
+    <link href="/css/business-casual.css" rel="stylesheet">
+	<link href="/css/business-casual.min.css" rel="stylesheet">
 	</head>
 	
 	<body>
@@ -56,6 +56,9 @@
             </li>
             <li class="nav-item px-lg-6">
               <a class="nav-link text-uppercase text-expanded" href="/type-name">FindRestaurant</a>
+            </li>
+            <li class="nav-item px-lg-6">
+              <a class="nav-link text-uppercase text-expanded" href="/about-us">AboutUs</a>
             </li>
           </ul>
         </div>
@@ -104,8 +107,8 @@
     </footer>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
 
 
 	</body>
