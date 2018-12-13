@@ -1,4 +1,5 @@
 body {
+  font-family: Lora;
   background: url(/images/background.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -15,7 +16,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
   font-size: 1.25em;
   line-height: 1.6;
-  color: #000;
+  color: #feffff;
 }
 
 hr {
