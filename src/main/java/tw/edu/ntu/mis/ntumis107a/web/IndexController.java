@@ -83,34 +83,20 @@ public class IndexController {
 		return "/type-name";
 	}
 	
+	@RequestMapping("/type-name-new")
+	public String TypeNameNew() {
+		return "/type-name-new";
+	}
+	
 	@RequestMapping("/the-restaurant")
 	public String TheRestaurant() {
-		return "the-restaurant";
+		return "/the-restaurant";
 	}
 	
 	@RequestMapping("/about-us")
 	public String AboutUs() {
-		return "about us";
+		return "/about-us";
 	}
 	
-	@RequestMapping("/test1")
-	public String test1() {
-		return "/test1";
-	}
-	@RequestMapping("/test2")
-	public String test2() {
-		return "/test2";
-	}
-	@RequestMapping("/test3")
-	public String test3() {
-		return "/test3";
-	}
-	@RequestMapping("/test4")
-	public String test4() {
-		return "/test4";
-	}
-	@RequestMapping("/test5")
-	public String test5() {
-		return "/test5";
-	}
+
 }

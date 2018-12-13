@@ -11,7 +11,7 @@
 	</head>
 	<body>
     <main role="main">
-		<h1>Price Choose</h1>
+		<h1>Category Choose</h1>
 		<div>
 			<button type="button" class="btn btn-primary" onclick="javascript:location.href='/choose-mealcategory?Category=飯'">Rice</button>
 			<button type="button" class="btn btn-secondary" onclick="javascript:location.href='/choose-mealcategory?Category=麵'" >Noodles</button>
