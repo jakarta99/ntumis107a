@@ -12,14 +12,14 @@
       <span class="site-heading-lower">Find Restaurant</span>
     </h1>
 
-    <form class="form-inline">
-    	<div class="form-row align-items-center">
-    		<div class="col-auto">
-   			 	<label for "Insert Meal Name" style="color:white">Insert Meal Name:</label>
+    <form class="form-inline" >
+    	<div class="form-row align-items-center" style="margin:0px auto">
+    		<div class="col-auto" style="margin:0px auto">
+   			 	<label for "Insert Meal Name" style="color:white ;" >Insert Meal Name:</label>
     		 	<input class="form-control mb-2" type="text" placeholder="Name of Meal">
     		</div>
+    	<button type ="submit" class="btn btn-light btn-sn" style="margin:0px auto">Find Restaurant!</button>
     	</div>>
-    	<button type ="submit" class="btn btn-light btn-sn">Find Restaurant!</button>
     </form>
 
 	<jsp:include page="footer.jsp"/>
