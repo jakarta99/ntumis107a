@@ -31,16 +31,11 @@
       </div>
     </section>
 
-
-<<<<<<< HEAD
     <!-- Bootstrap core JavaScript -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
   
-
-=======
     <jsp:include page="footer.jsp"/>
->>>>>>> branch 'master' of https://github.com/jakarta99/ntumis107a.git
 	
 	</body>
 	
