@@ -5,17 +5,19 @@
 
     <body>
     
-    <jsp:include page="nav.jsp"/> 
+    <jsp:include page="nav.jsp?navitem=surpriseItem"/> 
     
-    <main role="main">
-        <section class="page-section clearfix">
-		<div>
-		<h2>Suggestion:<h1> ${meal.name} </h1> <h2>
-
-		The Restaurant: ${restaurant.name } in ${restaurant.location }<br/>
+    <section class="page-section clearfix">
+      <div class="container">
+        <div class="intro">
+          <div class="intro-text text-center bg-faded p-5 rounded">
+          <h1 class="mb-4">Suggestion:${meal.name}</h1> 
+          <p class="mb-3"> The Restaurant: ${restaurant.name } in ${restaurant.location }
+		  </p>
+		  </div>
         </div>
-        </section>
-    </main>
+      </div>
+    </section>
     
     <!-- Bootstrap core JavaScript -->
     <script src="js/jquery.min.js"></script>
