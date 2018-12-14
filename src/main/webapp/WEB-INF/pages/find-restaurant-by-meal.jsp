@@ -15,15 +15,17 @@
     <form class="form-inline" >
     	<div class="form-row align-items-center" style="margin:0px auto">
     		<div class="col-auto" style="margin:0px auto">
-   			 	<label for "Insert Meal Name" style="color:white ;" >Insert Meal Name:</label>
-    		 	<input class="form-control mb-2" type="text" placeholder="Name of Meal">
+   			 	<label for "Insert Meal Name" style="color:white;" >Insert Meal Name:</label>
+    		 	<input class="form-control-lg mb-2" type="text" placeholder="Name of Meal">
     		</div>
-    	<button type ="submit" class="btn btn-light btn-sn" style="margin:0px auto">Find Restaurant!</button>
-    	</div>>
-    </form>
-
+    	</div>
+        <div class="form-group row align-items-center" style="margin:0px auto">
+             <div class="col-sm-10">
+                <button type="submit" class="btn btn-light">Find!</button>
+             </div>
+        </div>
+ </form>
 	<jsp:include page="footer.jsp"/>
-
   </body>
 
 </html>
