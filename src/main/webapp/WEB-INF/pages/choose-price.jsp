@@ -5,8 +5,9 @@
 	
 	<body>
 	
-	<jsp:include page="nav.jsp"/>   
+	<jsp:include page="nav.jsp?navitem=surpriseItem"/>   
 
+    <main role="main">
     <section class="page-section clearfix">
       <div class="container">
         <div class="intro">
@@ -30,6 +31,7 @@
         </div>
       </div>
     </section>
+    </main>
 
     <!-- Bootstrap core JavaScript -->
     <script src="js/jquery.min.js"></script>

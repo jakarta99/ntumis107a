@@ -8,11 +8,13 @@
     <jsp:include page="nav.jsp"/> 
     
     <main role="main">
+        <section class="page-section clearfix">
 		<div>
 		<h2>Suggestion:<h1> ${meal.name} </h1> <h2>
 
 		The Restaurant: ${restaurant.name } in ${restaurant.location }<br/>
         </div>
+        </section>
     </main>
     
     <!-- Bootstrap core JavaScript -->
