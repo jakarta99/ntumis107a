@@ -3,7 +3,7 @@
 
   <jsp:include page="header.jsp"/>
 	
-	<body>
+<body>
 
     <jsp:include page="nav.jsp"/>
 
@@ -12,20 +12,25 @@
       <span class="site-heading-lower">Find Restaurant</span>
     </h1>
 
-    <form class="form-inline" >
-    	<div class="form-row align-items-center" style="margin:0px auto">
-    		<div class="col-auto" style="margin:0px auto">
-   			 	<label for "Insert Meal Name" style="color:white;" >Insert Meal Name:</label>
-    		 	<input class="form-control-lg mb-2" type="text" placeholder="Name of Meal">
-    		</div>
-    	</div>
-        <div class="form-group row align-items-center" style="margin:0px auto">
-             <div class="col-sm-10">
-                <button type="submit" class="btn btn-light">Find!</button>
-             </div>
+    <form>
+     <div class="form-group align-items-center">
+      <div class="mx-auto" style="width: 150px; margin: auto">
+        <div class="col-auto">
+          <label for="findrestaurant" style="color:white; font-size: 18px" class="mb-2">Find Restaurant</label>
+          <input type="text" class="form-control mb-1" id="findrestaurant" placeholder="Meal Name">
         </div>
- </form>
+      </div>
+     </div>
+     <div class="form-group align-items-center">  
+       <div class="mx-auto" style="width: 100px; margin: auto">     
+        <div class="col-auto">
+         <button type="submit" class="btn btn-lighten">Find!</button>
+        </div>
+      </div>
+     </div>
+     </form>
+     
 	<jsp:include page="footer.jsp"/>
-  </body>
+</body>
 
 </html>
