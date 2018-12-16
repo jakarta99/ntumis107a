@@ -82,8 +82,12 @@ public class IndexController {
 	public String FindRestaurantByMeal() {
 		return "/find-restaurant-by-meal";
 	}
+<<<<<<< HEAD
 
 
+=======
+	
+>>>>>>> branch 'master' of https://github.com/jakarta99/ntumis107a.git
 	@RequestMapping("/the-restaurant")
 	public String TheRestaurant() {
 		return "/the-restaurant";

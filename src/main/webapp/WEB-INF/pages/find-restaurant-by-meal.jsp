@@ -11,6 +11,7 @@
       <span class="site-heading-upper text-primary mb-3">Want to find what to eat?</span></br>
       <span class="site-heading-lower">Find Restaurant</span>
     </h1>
+<<<<<<< HEAD
 
     <form>
      <div class="form-group align-items-center">
@@ -30,6 +31,22 @@
      </div>
      </form>
      
+=======
+
+    <form class="form-inline" >
+    	<div class="form-row align-items-center" style="margin:0px auto">
+    		<div class="col-auto" style="margin:0px auto">
+    		<form action="/search_restaurant" method="post">
+				Insert Meal Name:
+				<input type="text" name="mealName">
+				<input type="submit" Value="Find">
+			</form>
+    		</div>
+    	</div>
+       
+ </form>
+
+>>>>>>> branch 'master' of https://github.com/jakarta99/ntumis107a.git
 	<jsp:include page="footer.jsp"/>
 </body>
 
