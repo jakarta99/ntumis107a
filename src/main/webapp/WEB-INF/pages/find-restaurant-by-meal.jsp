@@ -7,8 +7,8 @@
 
     <jsp:include page="nav.jsp"/>
 
-  <div class="mx auto">
-    <h1 class="site-heading text-center text-white d-none d-lg-block">
+  <div class="d-flex justify-content-center">
+    <h1 class="site-heading text-center" style="color:white;">
       <span class="site-heading-upper text-primary mb-3">Want to find what to eat?</span></br>
       <span class="site-heading-lower">Find Restaurant</span>
     </h1>
