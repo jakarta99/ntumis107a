@@ -35,7 +35,7 @@
                 <span class="section-heading-upper">Our Promise</span>
                 <span class="section-heading-lower">To You</span>
               </h2>
-              <p class="mb-0">The probability of each random meal will be exactly equal.And we will try our best to make experience more better.Hope you enjoy the Meal! </p>
+              <p class="mb-0">The probability of each random meal will be exactly equal. </br>  And we are striving to provide the most enjoyable user experience. </br> Bon appétit! </p>
             </div>
           </div>
         </div>

@@ -18,11 +18,11 @@
    
 		     <div class="intro-button mx-auto" style='position: relative'>
 		     <p>
-              <a class="btn btn-primary btn-lg" onclick="javascript:location.href='/choose-meal?beginPrice=1&endPrice=100'">1~100</a>
-		      <a class="btn btn-primary btn-lg" onclick="javascript:location.href='/choose-meal?beginPrice=01&endPrice=200'">101~200</a>
-		      <a class="btn btn-primary btn-lg" onclick="javascript:location.href='/choose-meal?beginPrice=201&endPrice=10000'">201+</a>
+              <a class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-meal?beginPrice=1&endPrice=100'">1~100</a>
+		      <a class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-meal?beginPrice=01&endPrice=200'">101~200</a>
+		      <a class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-meal?beginPrice=201&endPrice=10000'">201+</a>
              </p>
-		      <a class="btn btn-secondary btn-lg" onclick="javascript:location.href='/#'">CANCEL</a>
+		      <a class="btn btn-outline-light btn-lg" style="color:gray;" onclick="javascript:location.href='/#'">CANCEL</a>
 
 		     </div>	   
 
@@ -35,15 +35,8 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
   
-    <jsp:include page="footer.jsp"/>
+  <jsp:include page="footer.jsp"/>
 	
 	</body>
-	
-	
-</html>
-
-
-
-
 
 
