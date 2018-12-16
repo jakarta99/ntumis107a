@@ -12,6 +12,14 @@
       <span class="site-heading-lower">Find Restaurant</span>
     </h1>
 
+	<div>
+		<form action="/search_restaurant" method="post">
+		Find Restaurant
+		<input type="text" name="mealName">
+		<input type="submit" Value="Find">
+		</form>
+	</div>
+
     <form>
      <div class="form-group align-items-center">
       <div class="mx-auto" style="width: 150px; margin: auto">
