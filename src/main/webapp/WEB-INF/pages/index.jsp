@@ -16,7 +16,7 @@
               <span class="section-heading-upper text-primary mb-3">NTU</span>
               <span class="section-heading-lower">Surprise Meal</span>
             </h2>
-            <p class="mb-3"> Always wondering what to eat today? Bored with eating the same meal over and over again? Don't worry, we have you covered! Just simply clicked the "Surprise Me!" button  and wait for a SURPRISE MEAL to make your day!
+            <p class="mb-3"> Always wondering what to eat today? </br> Bored with eating the same meal over and over again? </br> Don't worry, we have you covered! </br> Just simply clicked the "Surprise Me!" button </br> and wait for a SURPRISE MEAL to make your day!
             </p>
             <div class="intro-button mx-auto">
               <a class="btn btn-primary btn-lg" href="/choose-price">Surprise Me!</a>
