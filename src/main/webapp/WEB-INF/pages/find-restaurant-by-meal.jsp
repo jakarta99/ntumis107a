@@ -19,7 +19,7 @@
 	  <div class="mx auto" style="width: 150px; margin: auto">
 		<div class="col-auto">
           <label for="findrestaurant" style="color:white; font-size: 18px" class="mb-2">Find Restaurant</label>
-          <input type="text" class="form-control mb-1" id="findrestaurant" placeholder="Meal Name">
+          <input name="mealName" type="text" class="form-control mb-1" id="findrestaurant" placeholder="Meal Name">
         </div>   
       </div>
       <div class="mx auto" style="width: 100px; margin: auto">
@@ -30,13 +30,6 @@
      </form>
   </div>
 
-	<div>
-		<form action="/search_restaurant_result" method="post">
-		Find Restaurant
-		<input type="text" name="mealName">
-		<input type="submit" Value="Find">
-		</form>
-	</div>
  
 	<jsp:include page="footer.jsp"/>
 </body>
