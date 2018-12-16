@@ -18,8 +18,8 @@
                   <span class="section-heading-upper">Strong Team, Surprise Meal</span>
                   <span class="section-heading-lower">About Our Team</span>
                 </h2>
-                <p>We are team selected from MIS course for programming design.With explicit logic thinking and great perseverance,We have been learning Java language and HTML by founding our own website.In addition,Our website is planning to solve our daily question:what to eat today.</p>
-                <p class="mb-0">Through assistance of our JAVA teacher,Gary who is also the leader of Softleader,we guarantee that you will have wonderful experience when using our new website.As soon as you apply our web in your daily meal,you will intend to join our project.Know more about SurpriseMeal by click the button 'findsurprise'.</p>
+                <p>We are team selected from MIS course for programming design. With explicit logic thinking and great perseverance,we have been learning Java language and HTML by founding our own website. In addition,our website is planned to solve our daily question of what to eat today.</p>
+                <p class="mb-0">With the assistance of our JAVA teacher,Gary, who is also the leader of Softleader, we guarantee that you will have a wonderful experience using our new website. As soon as you apply our web to your daily meal, you will intend to join our project. Know more about SurpriseMeal by click the button 'FindSurprise'.</p>
               </div>
             </div>
           </div>

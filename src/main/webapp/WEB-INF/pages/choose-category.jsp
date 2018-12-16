@@ -22,7 +22,7 @@
 			 <button type="button" class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-mealcategory?Category=麵'" >Noodles</button>
 			 <button type="button" class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-mealcategory?Category=其他'" >Something Else</button>
              </p>
-		     <a class="btn btn-outline-light btn-lg" style="color:gray;" onclick="javascript:location.href='/#'">CANCEL</a>
+		     <a class="btn btn-secondary btn-lg" style="color:white;" onclick="javascript:location.href='/#'">CANCEL</a>
 
 		     </div>	   
 

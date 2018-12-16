@@ -22,7 +22,7 @@
 		      <a class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-meal?beginPrice=01&endPrice=200'">101~200</a>
 		      <a class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-meal?beginPrice=201&endPrice=10000'">201+</a>
              </p>
-		      <a class="btn btn-outline-light btn-lg" style="color:gray;" onclick="javascript:location.href='/#'">CANCEL</a>
+		      <a class="btn btn-secondary btn-lg" style="color:white;" onclick="javascript:location.href='/#'">CANCEL</a>
 
 		     </div>	   
 
