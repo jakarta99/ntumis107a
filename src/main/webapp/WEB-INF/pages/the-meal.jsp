@@ -10,7 +10,7 @@
     <section class="page-section clearfix">
       <div class="container">
         <div class="intro">
-          <div class="intro-text text-center bg-faded p-5 rounded">
+          <div class="intro-text text-center bg-faded p-5 rounded" style='width:100%;position: relative'>
           <h1 class="mb-4">Suggestion:${meal.name}</h1> 
           <p class="mb-3"> The Restaurant: ${restaurant.name } in ${restaurant.location }
 		  </p>
