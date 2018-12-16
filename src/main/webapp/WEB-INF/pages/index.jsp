@@ -35,7 +35,7 @@
                 <span class="section-heading-upper">Our Promise</span>
                 <span class="section-heading-lower">To You</span>
               </h2>
-              <p class="mb-0">When you walk into our shop to start your day, we are dedicated to providing you with friendly service, a welcoming atmosphere, and above all else, excellent products made with the highest quality ingredients. If you are not satisfied, please let us know and we will do whatever we can to make things right!</p>
+              <p class="mb-0">The probability of each random meal will be exactly equal.And we will try our best to make experience more better.Hope you enjoy the Meal! </p>
             </div>
           </div>
         </div>
