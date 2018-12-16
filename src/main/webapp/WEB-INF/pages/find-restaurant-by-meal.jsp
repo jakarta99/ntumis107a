@@ -13,7 +13,7 @@
     </h1>
 
 	<div>
-		<form action="/search_restaurant" method="post">
+		<form action="/search_restaurant_result" method="post">
 		Find Restaurant
 		<input type="text" name="mealName">
 		<input type="submit" Value="Find">
