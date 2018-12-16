@@ -60,7 +60,7 @@ public class RestaurantController {
 		model.addAttribute("result", restaurants);
 		
 		
-		return "/search_restaurants_result";
+		return "/search_restaurant";
 		
 		
 	}
