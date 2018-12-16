@@ -56,7 +56,6 @@ public class RestaurantController {
 			System.out.println(restaurant);
 			restaurants.add(restaurant);
 		}
-		
 		model.addAttribute("result", restaurants);
 		
 		
