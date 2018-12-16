@@ -15,7 +15,7 @@
   </div>
 
   <div>
-     <form action="/search_restaurants_result" method="post">
+     <form action="/search_restaurant_result" method="post">
 	  <div class="mx auto" style="width: 150px; margin: auto">
 		<div class="col-auto">
           <label for="findrestaurant" style="color:white; font-size: 18px" class="mb-2">Find Restaurant</label>
@@ -30,6 +30,14 @@
      </form>
   </div>
 
+	<div>
+		<form action="/search_restaurant_result" method="post">
+		Find Restaurant
+		<input type="text" name="mealName">
+		<input type="submit" Value="Find">
+		</form>
+	</div>
+ 
 	<jsp:include page="footer.jsp"/>
 </body>
 
