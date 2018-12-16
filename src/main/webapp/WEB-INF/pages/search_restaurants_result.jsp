@@ -15,10 +15,9 @@
 	<div>
 		<c:forEach items="${result}" var="restaurant">
 		
-			Hi, <b>${restaurant.name}</b> provides .. <br/>
+			You can go to ... <b>${restaurant.name}</b> ! <br/>
 		
 		</c:forEach>
-	
 	
 	</div>
 	
