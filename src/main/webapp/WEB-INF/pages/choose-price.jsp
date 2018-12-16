@@ -11,12 +11,12 @@
       <div class="container">
         <div class="intro">
           
-          <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+          <div class="intro-text left-0 text-center bg-faded p-5 rounded" style='width:100% ;position: relative'>
        		 <h2 class="section-heading mb-4">
               <span class="section-heading">choose price</span>
        		 </h2>
    
-		     <div class="intro-button mx-auto">
+		     <div class="intro-button mx-auto" style='position: relative'>
 		     <p>
               <a class="btn btn-primary btn-lg" onclick="javascript:location.href='/choose-meal?beginPrice=1&endPrice=100'">1~100</a>
 		      <a class="btn btn-primary btn-lg" onclick="javascript:location.href='/choose-meal?beginPrice=01&endPrice=200'">101~200</a>
