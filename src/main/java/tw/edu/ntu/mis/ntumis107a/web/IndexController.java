@@ -83,18 +83,16 @@ public class IndexController {
 		return "/find-restaurant-by-meal";
 	}
 
-	
+
 	@RequestMapping("/the-restaurant")
 	public String TheRestaurant() {
 		return "/the-restaurant";
 	}
 	
-
 	@RequestMapping("/about-us")
 	public String AboutUs() {
 		return "/about-us";
 	}
-	
 	
 
 }

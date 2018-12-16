@@ -39,7 +39,7 @@ public class RestaurantController {
 		return html;
 	}
 	
-	@RequestMapping("/search_restaurants_result")
+	@RequestMapping("/search_restaurant")
 	public String searchResultPage(@RequestParam("mealName") String mealName, Model model) {
 		
 		List<Meal> meals = mealDao.findByNameLike("%"+mealName+"%");
@@ -64,5 +64,4 @@ public class RestaurantController {
 		
 		
 	}
-	
 }
