@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
   <jsp:include page="header.jsp"/>
@@ -9,7 +9,7 @@
 
   <div class="d-flex justify-content-center">
     <h1 class="site-heading text-center" style="color:white;">
-      <span class="site-heading-upper text-primary mb-3">Want to find what to eat?</span></br>
+      <span class="site-heading-upper text-primary mb-3">Want to find what to eat?</span><br/>
       <span class="site-heading-lower">Find Restaurant</span>
     </h1>
   </div>
