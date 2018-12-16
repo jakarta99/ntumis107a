@@ -8,6 +8,6 @@ import tw.edu.ntu.mis.ntumis107a.entity.Restaurant;
 
 public interface RestaurantDao extends JpaRepository<Restaurant, Long> {
 	
-	public List<Restaurant> findByNameLike(String nameLike);
+//	public List<Restaurant> findByNameLike(String nameLike);
 
 }

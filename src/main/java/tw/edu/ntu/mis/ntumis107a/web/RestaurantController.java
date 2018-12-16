@@ -41,7 +41,7 @@ public class RestaurantController {
 	
 	@RequestMapping("/search_restaurant")
 	public String searchResultPage(@RequestParam("mealName") String mealName, Model model) {
-		
+		System.out.println(mealName);
 		List<Meal> meals = mealDao.findByNameLike("%"+mealName+"%");
 		
 		
@@ -52,6 +52,7 @@ public class RestaurantController {
 		Set<Restaurant> restaurants = new HashSet<Restaurant>();
 		
 		for(Meal meal:meals) {
+			System.out.println(meal);
 			Restaurant restaurant = restaurantDao.findById(meal.getRestaurantId()).get();
 			System.out.println(restaurant);
 			restaurants.add(restaurant);

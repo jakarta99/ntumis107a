@@ -15,7 +15,7 @@
 	<div>
 		<c:forEach items="${result}" var="restaurant">
 		
-			Hi, <b>${restaurant.name}</b> provide .. <br/>
+			Hi, <b>${restaurant.name}</b> provides .. <br/>
 		
 		</c:forEach>
 	
