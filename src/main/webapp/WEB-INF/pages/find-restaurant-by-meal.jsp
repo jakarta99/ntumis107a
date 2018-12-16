@@ -12,7 +12,6 @@
       <span class="site-heading-lower">Find Restaurant</span>
     </h1>
 
-<<<<<<< HEAD
     <form class="form-inline" >
     	<div class="form-row align-items-center" style="margin:0px auto">
     		<div class="col-auto" style="margin:0px auto">
@@ -25,26 +24,7 @@
     	</div>
        
  </form>
-=======
-    <form>
-     <div class="form-group align-items-center">
-      <div class="mx-auto" style="width: 150px; margin: auto">
-        <div class="col-auto">
-          <label for="findrestaurant" style="color:white; font-size: 18px" class="mb-2">Find Restaurant</label>
-          <input type="text" class="form-control mb-1" id="findrestaurant" placeholder="Meal Name">
-        </div>
-      </div>
-     </div>
-     <div class="form-group align-items-center">  
-       <div class="mx-auto" style="width: 100px; margin: auto">     
-        <div class="col-auto">
-         <button type="submit" class="btn btn-lighten">Find!</button>
-        </div>
-      </div>
-     </div>
-     </form>
-     
->>>>>>> branch 'master' of https://github.com/jakarta99/ntumis107a.git
+
 	<jsp:include page="footer.jsp"/>
 </body>
 
