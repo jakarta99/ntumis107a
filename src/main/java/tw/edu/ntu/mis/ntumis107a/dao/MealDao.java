@@ -10,7 +10,7 @@ import tw.edu.ntu.mis.ntumis107a.entity.Meal;
 public interface MealDao extends JpaRepository<Meal,Long>{
 
 	public List<Meal> findByPriceGreaterThanEqualAndPriceLessThanEqual(Integer beginPrice, Integer endPrice);
-	public List<Meal> findByCategoryIsAndMeatCategoryIs(String category, String meatcategory);
+	public List<Meal> findByCategoryIsAndMeatcategoryIs(String category, String meatcategory);
 	public List<Meal> findByNameLike(String meal);
 	
 }
