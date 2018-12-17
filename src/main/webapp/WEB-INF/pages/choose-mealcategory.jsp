@@ -23,7 +23,7 @@
 			 <button type="button" class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-mealcategory-result?Category=${category}&MeatCategory=羊肉'" >羊肉</button>
 			 <button type="button" class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-mealcategory-result?Category=${category}&MeatCategory=雞肉'" >雞肉</button>
              <button type="button" class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-mealcategory-result?Category=${category}&MeatCategory=海鮮'" >海鮮</button>
-			 <button type="button" class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-mealcategory-result?Category=${category}&MeatCategory=無肉'" >無肉</button>
+			 <button type="button" class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-mealcategory-result?Category=${category}&MeatCategory=素食'" >無肉</button>
              </p>
 		     <a class="btn btn-secondary btn-lg" style="color:white;" onclick="javascript:location.href='/#'">CANCEL</a>
 

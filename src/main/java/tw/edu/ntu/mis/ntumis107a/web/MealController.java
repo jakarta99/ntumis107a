@@ -35,30 +35,30 @@ public class MealController {
 		if(meals.size() > 0 ) {
 		
 			Random rand = new Random();
-			Meal theMeal = meals.get(rand.nextInt(meals.size()));
+			Meal theRice = meals.get(rand.nextInt(meals.size()));
 			
-			System.out.println(theMeal);
+			System.out.println(theRice);
 			
-			Restaurant mealRestaurant = restaurantDao.findById(theMeal.getRestaurantId()).get();
+			Restaurant mealRestaurant = restaurantDao.findById(theRice.getRestaurantId()).get();
 			System.out.println(mealRestaurant);
 			
 			
-			model.addAttribute("meal",theMeal);
+			model.addAttribute("meal",theRice);
 			model.addAttribute("restaurant", mealRestaurant);
 		} else {
 			
 			Meal noneMeal = new Meal();
-			noneMeal.setName("Not Found");
+			noneMeal.setName("NO SUITABLE");
 			noneMeal.setPrice(null);
 			
 			Restaurant noneRestaurant = new Restaurant();
-			noneRestaurant.setName("Not Found");
-			noneRestaurant.setLocation("None");
+			noneRestaurant.setName("Not found");
+			noneRestaurant.setLocation("*********************");
 			
 			model.addAttribute("meal", noneMeal);
 			model.addAttribute("restaurant", noneRestaurant);
 		}
-		return "/find-meal-result";
+		return "/the-meal";
 	}
 	
 	

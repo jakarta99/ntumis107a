@@ -18,12 +18,9 @@
    
 		     <div class="intro-button mx-auto" style='position: relative'>
 		     <p>
-             <button type="button" class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-mealcategory-result?Category=飯'">飯</button>
-			 <button type="button" class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-mealcategory-result?Category=麵'" >麵</button>
-			 <button type="button" class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-mealcategory-result?Category=冬粉'" >冬粉</button>
-			 <button type="button" class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-mealcategory-result?Category=漢堡'" >漢堡</button>
-             <button type="button" class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-mealcategory-result?Category=鍋貼'" >鍋貼</button>
-			 <button type="button" class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-mealcategory-result?Category=火鍋'" >火鍋</button>
+             <button type="button" class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-mealcategory?Category=飯'">Rice</button>
+			 <button type="button" class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-mealcategory?Category=麵'" >Noodles</button>
+			 <button type="button" class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-mealcategory?Category=其他'" >Something Else</button>
              </p>
 		     <a class="btn btn-secondary btn-lg" style="color:white;" onclick="javascript:location.href='/#'">CANCEL</a>
 

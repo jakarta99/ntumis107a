@@ -3,36 +3,23 @@
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html >
-
-  <jsp:include page="header.jsp"/>
-  
-<body>
+	<head >
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>SurpriseMeal</title>
+		<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css' integrity='sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO' crossorigin='anonymous'>
+		<script src='https://code.jquery.com/jquery-3.3.1.slim.min.js' integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo' crossorigin='anonymous'></script>
+		<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js' integrity='sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy' crossorigin='anonymous'></script>
+	</head>
+	<body>
 	
-
+	<div>
+		<c:forEach items="${result}" var="restaurant">
+		
+			You can go to ... <b>${restaurant.name}</b> ! <br/>
+		
+		</c:forEach>
 	
-	 <section class="page-section clearfix">
-      <div class="container">
-        <div class="intro">
-          <div class="intro-text text-center bg-faded p-5 rounded" style='width:100%;position: relative'>
-			<div>
-				<h2 class="section-heading mb-4">
-  				Providing<br/> </h2>	 
-				
-				<c:forEach items="${result}" var="restaurant">
-				
-				 <li><b>${restaurant.name} </b>in ${restaurant.location } </li> <br/>
-				
-				</c:forEach>
-			
-			</div>
-		  </div>
-        </div>
-      </div>
-    </section>
+	</div>
 	
-	
-</body>
-	
-	<jsp:include page="footer.jsp"/>
-	
+	</body>
 </html>
