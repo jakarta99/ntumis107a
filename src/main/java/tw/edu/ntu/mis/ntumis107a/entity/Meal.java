@@ -77,11 +77,11 @@ public class Meal {
 		this.category = category;
 	}
 
-	public String getMeatcategory() {
+	public String getMeatCategory() {
 		return meatcategory;
 	}
 
-	public void setMeatcategory(String meatcategory) {
+	public void setMeatCategory(String meatcategory) {
 		this.meatcategory = meatcategory;
 	}
 
