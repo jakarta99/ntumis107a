@@ -5,7 +5,7 @@
 	
 <body>
 
-    <jsp:include page="nav.jsp"/>
+    <jsp:include page="nav.jsp?navitem=restaurantItem"/>
 
   <div class="d-flex justify-content-center">
     <h1 class="site-heading text-center" style="color:white;">
