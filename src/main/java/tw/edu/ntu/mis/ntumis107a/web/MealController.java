@@ -58,7 +58,7 @@ public class MealController {
 			model.addAttribute("meal", noneMeal);
 			model.addAttribute("restaurant", noneRestaurant);
 		}
-		return "/the-meal";
+		return "/find-meal-result";
 	}
 	
 	
