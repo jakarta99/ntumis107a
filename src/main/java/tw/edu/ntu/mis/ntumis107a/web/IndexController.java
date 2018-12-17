@@ -72,7 +72,7 @@ public class IndexController {
 		// return to JSPs(HTML)
 		model.addAttribute("meal", theOne);
 		model.addAttribute("restaurant", mealRestaurant);
-		
+
 		
 		return "/the-meal";
 		

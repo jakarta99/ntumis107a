@@ -11,7 +11,7 @@
       <div class="container">
         <div class="intro">
           <div class="intro-text text-center bg-faded p-5 rounded" style='width:100%;position: relative'>
-          <h1 class="mb-4">Suggestion:<br/><br/>${meal.name}</h1> <br/>
+          <h1 class="mb-4">Suggestion:<br/><br/>${meal.name} <br/><br/> NT$ ${meal.price}</h1> <br/>
           <p class="mb-3"> The Restaurant: ${restaurant.name } in ${restaurant.location }
 		  </p>
 		  </div>
