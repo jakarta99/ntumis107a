@@ -13,14 +13,19 @@
           
           <div class="intro-text left-0 text-center bg-faded p-5 rounded" style='width:100% ;position: relative'>
        		 <h2 class="section-heading mb-4">
-              <span class="section-heading">Choose Category</span>
+              <span class="section-heading">選擇主食！</span>
        		 </h2>
    
 		     <div class="intro-button mx-auto" style='position: relative'>
 		     <p>
-             <button type="button" class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-mealcategory?Category=飯'">Rice</button>
-			 <button type="button" class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-mealcategory?Category=麵'" >Noodles</button>
-			 <button type="button" class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-mealcategory?Category=其他'" >Something Else</button>
+             <button type="button" class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-mealcategory?Category=飯'">飯</button>
+			 <button type="button" class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-mealcategory?Category=麵'" >麵</button>
+			 <button type="button" class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-mealcategory?Category=冬粉'" >冬粉</button>
+			 <button type="button" class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-mealcategory?Category=米粉'" >米粉</button>
+			 <button type="button" class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-mealcategory?Category=鍋'">鍋</button>
+			 <button type="button" class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-mealcategory?Category=粥'" >粥</button>
+			 <button type="button" class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-mealcategory?Category=鍋貼'" >鍋貼</button>
+			 <button type="button" class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-mealcategory?Category=漢堡'" >漢堡</button>			 
              </p>
 		     <a class="btn btn-secondary btn-lg" style="color:white;" onclick="javascript:location.href='/#'">CANCEL</a>
 

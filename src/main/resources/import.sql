@@ -140,7 +140,7 @@ INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('香�
 INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('地瓜粥','10','粥','無肉','35');
 INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('香菇素粥','10','粥','無肉','35');
 INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('素燥飯','10','飯','無肉','30');
-INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('素食油飯','10','飯','無肉','30');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('無肉油飯','10','飯','無肉','30');
 INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('紅燒麵','10','麵','無肉','50');
 INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('酸辣麵','10','麵','無肉','35');
 INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('金針麵','10','麵','無肉','35');

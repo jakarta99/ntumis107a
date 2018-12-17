@@ -13,7 +13,7 @@
           
           <div class="intro-text left-0 text-center bg-faded p-5 rounded" style='width:100% ;position: relative'>
        		 <h2 class="section-heading mb-4">
-              <span class="section-heading">Choose Meat Category</span>
+              <span class="section-heading">選擇肉類！</span>
        		 </h2>
    
 		     <div class="intro-button mx-auto" style='position: relative'>
@@ -23,7 +23,7 @@
 			 <button type="button" class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-mealcategory-result?Category=${category}&MeatCategory=羊肉'" >羊肉</button>
 			 <button type="button" class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-mealcategory-result?Category=${category}&MeatCategory=雞肉'" >雞肉</button>
              <button type="button" class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-mealcategory-result?Category=${category}&MeatCategory=海鮮'" >海鮮</button>
-			 <button type="button" class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-mealcategory-result?Category=${category}&MeatCategory=素食'" >無肉</button>
+			 <button type="button" class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-mealcategory-result?Category=${category}&MeatCategory=無肉'" >無肉</button>
              </p>
 		     <a class="btn btn-secondary btn-lg" style="color:white;" onclick="javascript:location.href='/#'">CANCEL</a>
 

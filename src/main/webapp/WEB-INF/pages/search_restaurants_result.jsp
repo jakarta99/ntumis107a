@@ -8,7 +8,7 @@
   
 <body>
 	
-
+ 	<jsp:include page="nav.jsp?navitem=restaurantItem"/>   
 	
 	 <section class="page-section clearfix">
       <div class="container">
@@ -16,7 +16,7 @@
           <div class="intro-text text-center bg-faded p-5 rounded" style='width:100%;position: relative'>
 			<div>
 				<h2 class="section-heading mb-4">
-  				Providing<br/> </h2>	 
+  				你可以去... <br/> </h2>	 
 				
 				<c:forEach items="${result}" var="restaurant">
 				
@@ -30,7 +30,12 @@
       </div>
     </section>
 	
-	
+   <div class="mx auto" style="width: 150px; margin: auto">
+    <div class="col-auto">
+       <a class="btn btn-secondary btn-lg" style="color:white;" onclick="javascript:location.href='/#'">HOME</a>
+    </div>
+   </div>
+   
 </body>
 	
 	<jsp:include page="footer.jsp"/>

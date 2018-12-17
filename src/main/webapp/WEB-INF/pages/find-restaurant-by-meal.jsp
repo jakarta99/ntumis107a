@@ -24,7 +24,7 @@
 		     	</div>
 		     <br/>
 			 </form>
-			 <a class="btn btn-secondary btn-lg" style="color:white;" onclick="javascript:location.href='/#'">CANCEL</a>  
+			 <a class="btn btn-secondary" style="color:white;" onclick="javascript:location.href='/#'">HOME</a>  
           </div>
         </div>
 	</div>

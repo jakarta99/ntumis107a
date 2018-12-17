@@ -15,10 +15,16 @@
 		</c:forEach>
 	</div>
 	
+	<div class="mx auto" style="width: 150px; margin: auto">
+    <div class="col-auto">
+       <a class="btn btn-secondary btn-lg" style="color:white;" onclick="javascript:location.href='/#'">HOME</a>
+    </div>
+    </div>
 	
     <!-- Bootstrap core JavaScript -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+    
   
     <jsp:include page="footer.jsp"/>
 	
