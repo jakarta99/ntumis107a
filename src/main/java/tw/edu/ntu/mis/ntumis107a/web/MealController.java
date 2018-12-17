@@ -20,9 +20,10 @@ public class MealController {
 	
 	@Autowired
 	private MealDao mealDao;
-	private Meal meal;
+	
+	@Autowired
 	private RestaurantDao restaurantDao;
-	private Restaurant restaurant;
+	
 	
 
 	@RequestMapping("/choose-mealcategory-result")
@@ -36,7 +37,11 @@ public class MealController {
 			Random rand = new Random();
 			Meal theRice = meals.get(rand.nextInt(meals.size()));
 			
+			System.out.println(theRice);
+			
 			Restaurant mealRestaurant = restaurantDao.findById(theRice.getRestaurantId()).get();
+			System.out.println(mealRestaurant);
+			
 			
 			model.addAttribute("meal",theRice);
 			model.addAttribute("restaurant", mealRestaurant);

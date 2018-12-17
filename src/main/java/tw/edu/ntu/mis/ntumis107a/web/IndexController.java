@@ -46,7 +46,8 @@ public class IndexController {
 	}
 	
 	@RequestMapping("/choose-mealcategory")
-	public String chooseMealcategory() {
+	public String chooseMealcategory(@RequestParam("Category") String category, Model model) {
+		model.addAttribute("category", category);
 		return "/choose-mealcategory";
 		
 	}
