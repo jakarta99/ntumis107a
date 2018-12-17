@@ -5,7 +5,7 @@
 	
 	<body>
 	
-	<jsp:include page="nav.jsp?navitem=surpriseItem"/>   
+	<jsp:include page="nav.jsp?navitem=restaurantItem"/>   
 
     <section class="page-section clearfix">
       <div class="container">
