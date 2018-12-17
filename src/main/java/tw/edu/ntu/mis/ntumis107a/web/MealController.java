@@ -53,12 +53,12 @@ public class MealController {
 			
 			Restaurant noneRestaurant = new Restaurant();
 			noneRestaurant.setName("Not found");
-			noneRestaurant.setLocation("*********************");
+			noneRestaurant.setLocation("None");
 			
 			model.addAttribute("meal", noneMeal);
 			model.addAttribute("restaurant", noneRestaurant);
 		}
-		return "/the-meal";
+		return "/find-meal-result";
 	}
 	
 	
