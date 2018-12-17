@@ -5,7 +5,7 @@
 	
 	<body>
 	
-	<jsp:include page="nav.jsp"/>   
+	<jsp:include page="nav.jsp?navitem=aboutusItem"/>   
 
     <section class="page-section about-heading">
       <div class="container">
