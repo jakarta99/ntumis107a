@@ -34,11 +34,22 @@ public class Restaurant {
 	
 	@Column(name="CLOSETIME")
 	private String closetime;
+	
+	@Column(name="IMAGES")
+	private String images;
 
 	@Override
 	public String toString() {
 		return "Restaurant [id=" + id + ", name=" + name + ", location=" + location + ", opentime=" + opentime
-				+ ", closetime=" + closetime + "]";
+				+ ", closetime=" + closetime + ", images=" + images + "]";
+	}
+
+	public String getImages() {
+		return images;
+	}
+
+	public void setImages(String images) {
+		this.images = images;
 	}
 
 	public Long getId() {

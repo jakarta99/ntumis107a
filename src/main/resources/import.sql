@@ -27,19 +27,18 @@ INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('部
 INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('藜麥元氣和牛珍珠堡','4','其他','牛肉','110');
 INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('紅心蛋包飯特餐','5','飯','無肉','130');
 
-INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('比司多','小福','07:00','19:00');
-INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('四海遊龍','活大','11:00','20:00');
-INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('文湯武將','小福','11:00','20:00');
-INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('摩斯漢堡','小福','10:30','22:00');
-INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('幸好沒錯過你','台北市中正區羅斯福路四段78巷1弄5號','11:30','21:30');
-INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('大盛豬排','台北市中正區羅斯福路四段52巷16弄15-1號','11:30','21:00');
-INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('韓庭州','台北市大安區溫州街87號','11:00','22:00');
-
-INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('研一餐廳','研一','10:00','22:00');
-INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('第一小吃部','小小福','07:30','18:00');
-INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('第三小吃部','小小福','07:30','18:00');
-INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('第二小吃部','小小福','07:30','18:00');
-INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('趴兔','小小福','07:30','18:00');
+INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('比司多','小福','07:00','19:00','比斯多.jpg');
+INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('四海遊龍','活大','11:00','20:00','四海遊龍.jpg');
+INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('文湯武將','小福','11:00','20:00','文湯武醬.jpg');
+INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('摩斯漢堡','小福','10:30','22:00','摩斯漢堡.jpg');
+INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('幸好沒錯過你','台北市中正區羅斯福路四段78巷1弄5號','11:30','21:30','幸好沒錯過你.jpg');
+INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('大盛豬排','台北市中正區羅斯福路四段52巷16弄15-1號','11:30','21:00','大盛豬排.jpg');
+INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('韓庭州','台北市大安區溫州街87號','11:00','22:00','韓庭州.jpg');
+INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('研一餐廳','研一','10:00','22:00','研一餐廳.jpg');
+INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('第一小吃部','小小福','07:30','18:00','小小福.jpg');
+INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('第三小吃部','小小福','07:30','18:00','小小福.jpg');
+INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('第二小吃部','小小福','07:30','18:00','小小福.jpg');
+INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('趴兔','小小福','07:30','18:00','小小福.jpg');
 
 INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('金閣屋','大一女美食廣場','11:00','20:00');
 INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('傅阿嬤的廚房','大一女美食廣場','11:00','20:00');

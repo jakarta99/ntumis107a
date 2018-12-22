@@ -14,6 +14,7 @@
           <h1 class="mb-4">Surprise! <br/><br/> 今天吃 ${meal.name} 吧！<br/><br/> NT$ ${meal.price}</h1> <br/>
           <p class="mb-3"> 去 ${restaurant.location } 的 ${restaurant.name } 就可以吃到囉！
 		  </p>
+		  <img src='/images/${restaurant.images }'>
 		  </div>
         </div>
       </div>
