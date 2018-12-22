@@ -207,8 +207,3 @@ INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('é’é†
 
 
 
-
-
-
-
-
