@@ -10,18 +10,20 @@
  
 
     <section class="page-section clearfix">
-      <div class="container">
+     <div class="container">
+      <div class="col-fluid">
         <div class="intro">
           <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src='/images/${restaurant.images }' alt="">
           <div class="intro-text left-0 text-center bg-faded p-5 rounded">
-            <h2 class="section-heading mb-4">
+            <h1 class="section-heading mb-4">
               <span class="section-heading-lower">Surprise!</span>
-            </h2>
-            <p class="mb-3"> Surprise! <br/><br/> 今天吃 ${meal.name} 吧！<br/><br/> NT$ ${meal.price}</p><br/>
+            </h1>
+            <h2 class="mb-3"> 今天吃 ${meal.name} 吧！<br/> NT$ ${meal.price}</h2><br/>
             <p class="mb-3"> 去 ${restaurant.location } 的 ${restaurant.name } <br/> 就可以吃到囉！</p>
           </div>
         </div>
-      </div>
+       </div>
+     </div>
     </section>
     
    <div class="mx auto" style="width: 150px; margin: auto">

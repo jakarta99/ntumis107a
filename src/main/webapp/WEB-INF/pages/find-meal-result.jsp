@@ -10,11 +10,14 @@
     <section class="page-section clearfix">
       <div class="container">
         <div class="intro">
-          <div class="intro-text text-center bg-faded p-5 rounded" style='width:100%;position: relative'>
-          <h1 class="mb-4">你今天該吃...<br/><br/>${meal.name} <br/><br/> NT$ ${meal.price}</h1> <br/>
-          <p class="mb-3"> 去 ${restaurant.location } 的 ${restaurant.name } 就可以吃到囉！
-		  </p>
-		  </div>
+          <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src='/images/${restaurant.images }' alt="">
+          <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+            <h1 class="section-heading mb-4">
+              <span class="section-heading-lower">你今天該吃...</span>
+            </h1>
+            <h2 class="mb-3"> ${meal.name} <br/><br/> NT$ ${meal.price}</h2> <br/>
+            <p class="mb-3"> 去 ${restaurant.location } 的 ${restaurant.name } <br/> 就可以吃到囉！</p>
+          </div>
         </div>
       </div>
     </section>
