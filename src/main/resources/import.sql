@@ -41,6 +41,16 @@ INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('第三小吃�
 INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('第二小吃部','小小福','07:30','18:00');
 INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('趴兔','小小福','07:30','18:00');
 
+INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('金閣屋','大一女美食廣場','11:00','20:00');
+INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('傅阿嬤的廚房','大一女美食廣場','11:00','20:00');
+INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('華克山莊 傳統韓國料理','大一女美食廣場','11:00','20:00');
+INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('桔客義式麵屋','大一女美食廣場','11:00','20:00');
+INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('吉登自助餐','大一女美食廣場','11:00','20:00');
+INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('比司多早午餐','大一女美食廣場','11:00','20:00');
+INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('蔬食小舖','大一女美食廣場','11:00','20:00');
+INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('日式食堂','大一女美食廣場','11:00','20:00');
+INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('椰林燒臘','大一女美食廣場','11:00','20:00');
+
 INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('滷肉便當','8','飯','豬肉','50');
 INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('豬排飯','8','飯','豬肉','65');
 INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('烤鴨飯','8','飯','鴨肉','65');
@@ -154,6 +164,17 @@ INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('番�
 INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('黑胡椒培根義大利麵','12','麵','豬肉','50');
 INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('奶油培根義大利麵','12','麵','豬肉','50');
 INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('青醬燻雞義大利麵','12','麵','雞肉','55');
+
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('紅燒排骨飯','13','飯','豬肉','75');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('東坡肉蓋飯','13','飯','豬肉','75');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('雞排蓋飯','13','飯','雞肉','65');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('豬排蓋飯','13','飯','豬肉','65');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('起司雞排飯','13','飯','雞肉','65');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('親子蓋飯','13','飯','雞肉','65');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('豬肉蓋飯','13','飯','豬肉','65');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('招牌拌麵','13','麵','豬肉','65');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('咖哩飯','50','飯','豬肉','50');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('水餃(12粒)','13','水餃','豬肉','50');
 
 
 
