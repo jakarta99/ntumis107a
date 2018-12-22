@@ -9,6 +9,7 @@
     
     <section class="page-section clearfix">
       <div class="container">
+       <div class="col-fluid">
         <div class="intro">
           <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src='/images/${restaurant.images }' alt="">
           <div class="intro-text left-0 text-center bg-faded p-5 rounded">
@@ -19,6 +20,7 @@
             <p class="mb-3"> 去 ${restaurant.location } 的 ${restaurant.name } <br/> 就可以吃到囉！</p>
           </div>
         </div>
+       </div>
       </div>
     </section>
     

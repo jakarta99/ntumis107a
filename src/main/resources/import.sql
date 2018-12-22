@@ -40,15 +40,15 @@ INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('第三
 INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('第二小吃部','小小福','07:30','18:00','小小福.jpg');
 INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('趴兔','小小福','07:30','18:00','小小福.jpg');
 
-INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('金閣屋','大一女美食廣場','11:00','20:00');
-INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('傅阿嬤的廚房','大一女美食廣場','11:00','20:00');
-INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('華克山莊 傳統韓國料理','大一女美食廣場','11:00','20:00');
-INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('桔客義式麵屋','大一女美食廣場','11:00','20:00');
-INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('吉登自助餐','大一女美食廣場','11:00','20:00');
-INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('比司多早午餐','大一女美食廣場','11:00','20:00');
-INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('蔬食小舖','大一女美食廣場','11:00','20:00');
-INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('日式食堂','大一女美食廣場','11:00','20:00');
-INSERT INTO RESTAURANT (name,location,opentime,closetime) VALUES ('椰林燒臘','大一女美食廣場','11:00','20:00');
+INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('金閣屋','大一女美食廣場','11:00','20:00','金閤屋.jpg');
+INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('傅阿嬤的廚房','大一女美食廣場','11:00','20:00','大一女美食廣場.jpg');
+INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('華克山莊 傳統韓國料理','大一女美食廣場','11:00','20:00','華克山莊.jpg');
+INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('桔客義式麵屋','大一女美食廣場','11:00','20:00','桔客義式麵屋.jpg');
+INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('吉登自助餐','大一女美食廣場','11:00','20:00','吉登自助餐.jpg');
+INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('比司多早午餐','大一女美食廣場','11:00','20:00','大一女美食廣場.jpg');
+INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('蔬食小舖','大一女美食廣場','11:00','20:00','蔬食小舖.jpg');
+INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('日式食堂','大一女美食廣場','11:00','20:00','日式食堂.jpg');
+INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('椰林燒臘','大一女美食廣場','11:00','20:00','椰林燒臘.jpg');
 
 INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('滷肉便當','8','飯','豬肉','50');
 INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('豬排飯','8','飯','豬肉','65');
