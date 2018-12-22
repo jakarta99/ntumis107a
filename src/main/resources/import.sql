@@ -173,7 +173,7 @@ INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('起�
 INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('親子蓋飯','13','飯','雞肉','65');
 INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('豬肉蓋飯','13','飯','豬肉','65');
 INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('招牌拌麵','13','麵','豬肉','65');
-INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('咖哩飯','50','飯','豬肉','50');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('咖哩飯','13','飯','豬肉','50');
 INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('水餃(12粒)','13','水餃','豬肉','50');
 
 
