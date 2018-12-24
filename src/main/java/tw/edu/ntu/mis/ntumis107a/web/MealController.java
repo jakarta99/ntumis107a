@@ -27,10 +27,9 @@ public class MealController {
 	
 
 	@RequestMapping("/choose-mealcategory-result")
-	public String chooseCategory(@RequestParam("Category") String Category, @RequestParam("MeatCategory") String MeatCategory, Model model) {
-		
-		List<Meal> meals = mealDao.findByCategoryIsAndMeatcategoryIs(Category,MeatCategory);
-		
+	public String chooseCategory(@RequestParam("beginPrice") Integer beginPrice, @RequestParam("endPrice") Integer endPrice,@RequestParam("Category") String Category, @RequestParam("MeatCategory") String MeatCategory, Model model) {
+		//System.out.println(beginPrice + endPrice);
+		List<Meal> meals = mealDao.findByCategoryIsAndMeatcategoryIsAndPriceBetween(Category,MeatCategory, beginPrice, endPrice);
 		
 		if(meals.size() > 0 ) {
 		
@@ -45,7 +44,9 @@ public class MealController {
 			
 			model.addAttribute("meal",theRice);
 			model.addAttribute("restaurant", mealRestaurant);
-		} else {
+		}
+		
+		else {
 			
 			Meal noneMeal = new Meal();
 			noneMeal.setName("NO SUITABLE");
@@ -58,6 +59,7 @@ public class MealController {
 			model.addAttribute("meal", noneMeal);
 			model.addAttribute("restaurant", noneRestaurant);
 		}
+	
 		return "/find-meal-result";
 	}
 	

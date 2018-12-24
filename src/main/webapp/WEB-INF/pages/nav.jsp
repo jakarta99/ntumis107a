@@ -23,7 +23,7 @@
               <a class="nav-link text-uppercase text-expanded" href="/choose-price">FindSurprise</a>
             </li>
             <li class="nav-item px-lg-4" id="mealItem">
-              <a class="nav-link text-uppercase text-expanded" href="/choose-category">FindMeal</a>
+              <a class="nav-link text-uppercase text-expanded" href="/choose-mealprice">FindMeal</a>
             </li>
             <li class="nav-item px-lg-4" id="restaurantItem">
               <a class="nav-link text-uppercase text-expanded" href="/find-restaurant-by-meal">FindRestaurant</a>

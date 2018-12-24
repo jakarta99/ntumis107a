@@ -16,11 +16,12 @@
               <span class="section-heading">選擇主食！</span>
        		 </h2>
    
+		     
 		     <div class="intro-button mx-auto" style='position: relative'>
 		     <p>
-             <button type="button" class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-mealcategory?Category=飯'">飯</button>
-			 <button type="button" class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-mealcategory?Category=麵'" >麵</button>	
-			 <button type="button" class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-mealcategory?Category=其他'" >其他</button>		 
+             <button type="button" class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-mealcategory?<% out.print(request.getQueryString());  %>&Category=飯'">飯</button>
+			 <button type="button" class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-mealcategory?<% out.print(request.getQueryString());  %>&Category=麵'" >麵</button>	
+			 <button type="button" class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-mealcategory?<% out.print(request.getQueryString());  %>&Category=其他'" >其他</button>		 
              </p>
 		     <a class="btn btn-secondary btn-lg" style="color:white;" onclick="javascript:location.href='/#'">CANCEL</a>
 

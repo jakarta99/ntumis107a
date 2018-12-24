@@ -39,6 +39,12 @@ public class IndexController {
 		
 	}
 	
+	
+	@RequestMapping("choose-mealprice")
+	public String chooseMealPrice() {
+		return "/choose-mealprice";
+	}
+	
 	@RequestMapping("/choose-category")
 	public String chooseCategory() {
 		return "/choose-category";
@@ -51,6 +57,7 @@ public class IndexController {
 		return "/choose-mealcategory";
 		
 	}
+		
 	
 	@RequestMapping("/choose-meal")
 	public String choosePrice(@RequestParam("beginPrice") Integer beginPrice, @RequestParam("endPrice") Integer endPrice, Model model) {
@@ -94,6 +101,8 @@ public class IndexController {
 	public String AboutUs() {
 		return "/about-us";
 	}
+	
+	
 	
 
 }
