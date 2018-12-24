@@ -1,5 +1,6 @@
 package tw.edu.ntu.mis.ntumis107a.web;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
@@ -27,14 +28,30 @@ public class MealController {
 	
 
 	@RequestMapping("/choose-mealcategory-result")
-	public String chooseCategory(@RequestParam("beginPrice") Integer beginPrice, @RequestParam("endPrice") Integer endPrice,@RequestParam("Category") String Category, @RequestParam("MeatCategory") String MeatCategory, Model model) {
-		//System.out.println(beginPrice + endPrice);
+	public String chooseCategory(@RequestParam("beginPrice") Integer beginPrice, 
+			@RequestParam("endPrice") Integer endPrice,
+			@RequestParam("Category") String Category, 
+			@RequestParam("MeatCategory")  String MeatCategory,
+			@RequestParam("location") String location, Model model) {
+
 		List<Meal> meals = mealDao.findByCategoryIsAndMeatcategoryLikeAndPriceBetween(Category,"%"+MeatCategory+"%", beginPrice, endPrice);
+
+		List<Meal> inThisLocationMeals = new ArrayList<Meal>();
 		
-		if(meals.size() > 0 ) {
+		for(Meal meal:meals) {
+			Restaurant mealRestaurant = restaurantDao.findById(meal.getRestaurantId()).get();
+			if(mealRestaurant.getLocation().equals(location))  {
+				inThisLocationMeals.add(meal);
+			}
+			
+		}
+		
+		 
+		
+		if(inThisLocationMeals.size() > 0 ) {
 		
 			Random rand = new Random();
-			Meal theRice = meals.get(rand.nextInt(meals.size()));
+			Meal theRice = inThisLocationMeals.get(rand.nextInt(inThisLocationMeals.size()));
 			
 			System.out.println(theRice);
 			

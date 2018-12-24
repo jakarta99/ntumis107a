@@ -39,9 +39,14 @@ public class IndexController {
 		
 	}
 	
-	
+	@RequestMapping("/choose-location")
+	public String chooseLocation() {
+		return "/choose-location";
+		
+	}	
 	@RequestMapping("choose-mealprice")
-	public String chooseMealPrice() {
+	public String chooseMealPrice(@RequestParam("location") String location, Model model) {
+		model.addAttribute("location", location);
 		return "/choose-mealprice";
 	}
 	

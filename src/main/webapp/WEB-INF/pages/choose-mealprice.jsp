@@ -18,9 +18,9 @@
    
 		     <div class="intro-button mx-auto" style='position: relative'>
 		     <p>
-              <a class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-category?beginPrice=1&endPrice=100'">1~100</a>
-		      <a class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-category?beginPrice=101&endPrice=200'">101~200</a>
-		      <a class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-category?beginPrice=201&endPrice=1000'">201+</a>
+              <a class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-category?beginPrice=1&endPrice=100&location=${location}'">1~100</a>
+		      <a class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-category?beginPrice=101&endPrice=200&location=${location}'">101~200</a>
+		      <a class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-category?beginPrice=201&endPrice=1000&location=${location}'">201+</a>
              </p>
 		      <a class="btn btn-secondary btn-lg" style="color:white;" onclick="javascript:location.href='/#'">CANCEL</a>
 
