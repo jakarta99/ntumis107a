@@ -29,7 +29,7 @@ public class MealController {
 	@RequestMapping("/choose-mealcategory-result")
 	public String chooseCategory(@RequestParam("beginPrice") Integer beginPrice, @RequestParam("endPrice") Integer endPrice,@RequestParam("Category") String Category, @RequestParam("MeatCategory") String MeatCategory, Model model) {
 		//System.out.println(beginPrice + endPrice);
-		List<Meal> meals = mealDao.findByCategoryIsAndMeatcategoryIsAndPriceBetween(Category,MeatCategory, beginPrice, endPrice);
+		List<Meal> meals = mealDao.findByCategoryIsAndMeatcategoryLikeAndPriceBetween(Category,"%"+MeatCategory+"%", beginPrice, endPrice);
 		
 		if(meals.size() > 0 ) {
 		

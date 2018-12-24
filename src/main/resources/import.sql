@@ -233,11 +233,10 @@ INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('香�
 INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('人參雞湯','14','其他','雞肉','100');
 INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('野菇番茄麵','14','麵','無肉','70');
 INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('海苔包飯','14','飯','無肉','40');
-    -- 海陸空?
-INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('海陸空鍋燒意麵','14','麵','','80');
-INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('海陸空鍋燒烏龍麵','14','麵','其他','80');
-INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('海陸空鍋燒雞絲麵','14','麵','其他','80');
-INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('無骨雞腿套餐','14','麵','雞肉','90');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('海陸空鍋燒意麵','14','麵','雞肉豬肉海鮮','80');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('海陸空鍋燒烏龍麵','14','麵','雞肉豬肉海鮮','80');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('海陸空鍋燒雞絲麵','14','麵','雞肉豬肉海鮮','80');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('無骨雞腿套餐','14','麵','雞肉豬肉海鮮','90');
 
 -- 華克山莊 傳統韓國料理 id 15
 INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('韓式火鍋(泡菜)','15','其他','豬肉','100');
