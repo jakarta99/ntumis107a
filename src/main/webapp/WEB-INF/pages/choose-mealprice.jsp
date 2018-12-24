@@ -22,8 +22,10 @@
 		      <a class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-category?beginPrice=101&endPrice=200&location=${location}'">101~200</a>
 		      <a class="btn btn-dark btn-lg" style="color:orange;" onclick="javascript:location.href='/choose-category?beginPrice=201&endPrice=1000&location=${location}'">201+</a>
              </p>
+             
+              <a class="btn btn-secondary btn-lg" style="color:white;" onclick="history.back()">&lt;&lt;BACK</a>
 		      <a class="btn btn-secondary btn-lg" style="color:white;" onclick="javascript:location.href='/#'">CANCEL</a>
-
+		      
 		     </div>	   
 
           </div>
