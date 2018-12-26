@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
  <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 	<h1 class="site-heading text-center text-white d-none d-lg-block">
-      <span class="site-heading-upper text-primary mb-3" '>Surprise Meal</span>
+      <span class="site-heading-upper text-primary mb-3" >Surprise Meal</span>
       <span class="site-heading-lower">Let us surprise you!</span>
     </h1>
 

@@ -50,16 +50,36 @@ public class IndexController {
 		return "/choose-mealprice";
 	}
 	
+	@RequestMapping("choose-mealprice-foreverylocation")
+	public String chooseMealPriceForeverylocation() {
+		return "/choose-mealprice-foreverylocation";
+	}
+	
 	@RequestMapping("/choose-category")
 	public String chooseCategory() {
 		return "/choose-category";
 		
 	}
 	
+	@RequestMapping("/choose-category-foreverylocation")
+	public String chooseCategoryForeverylocation() {
+		return "/choose-category-foreverylocation";
+		
+	}
+	
+	
+	
 	@RequestMapping("/choose-mealcategory")
 	public String chooseMealcategory(@RequestParam("Category") String category, Model model) {
 		model.addAttribute("category", category);
 		return "/choose-mealcategory";
+		
+	}
+	
+	@RequestMapping("/choose-mealcategory-foreverylocation")
+	public String chooseMealcategoryForeverylocation(@RequestParam("Category") String category, Model model) {
+		model.addAttribute("category", category);
+		return "/choose-mealcategory-foreverylocation";
 		
 	}
 		

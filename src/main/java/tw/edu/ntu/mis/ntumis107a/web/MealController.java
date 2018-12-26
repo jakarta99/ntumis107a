@@ -45,9 +45,7 @@ public class MealController {
 			}
 			
 		}
-		
 		 
-		
 		if(inThisLocationMeals.size() > 0 ) {
 		
 			Random rand = new Random();
@@ -80,6 +78,51 @@ public class MealController {
 		return "/find-meal-result";
 	}
 	
+	
+	
+	
+	
+	@RequestMapping("/choose-mealcategory-foreverylocation-result")
+	public String chooseCategory(
+			@RequestParam("beginPrice") Integer beginPrice, 
+			@RequestParam("endPrice") Integer endPrice,
+			@RequestParam("Category") String Category, 
+			@RequestParam("MeatCategory")  String MeatCategory, Model model) {
+	 	
+
+		List<Meal> meals = mealDao.findByCategoryIsAndMeatcategoryLikeAndPriceBetween(Category,"%"+MeatCategory+"%", beginPrice, endPrice);
+		
+		if(meals.size() > 0 ) {
+			
+			Random rand = new Random();
+			Meal theRice = meals.get(rand.nextInt(meals.size()));
+			
+			System.out.println(theRice);
+			
+			Restaurant mealRestaurant = restaurantDao.findById(theRice.getRestaurantId()).get();
+			System.out.println(mealRestaurant);
+			
+			model.addAttribute("meal",theRice);
+			model.addAttribute("restaurant", mealRestaurant);
+		}
+		
+		else {
+			
+			Meal noneMeal = new Meal();
+			noneMeal.setName("NO SUITABLE");
+			noneMeal.setPrice(null);
+			
+			Restaurant noneRestaurant = new Restaurant();
+			noneRestaurant.setName("Not found");
+			noneRestaurant.setLocation("None");
+			
+			model.addAttribute("meal", noneMeal);
+			model.addAttribute("restaurant", noneRestaurant);
+		}
+		
+		
+		return "/find-meal-foreverylocation-result";
+	}
 	
 	
 }
