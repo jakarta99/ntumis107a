@@ -1,22 +1,3 @@
-INSERT INTO BOOK(code, name) VALUES('AAA-001', 'Happy to Learn Java Basic');
-INSERT INTO BOOK(code, name) VALUES('AAA-002', 'Happy to Learn Java Web');
-INSERT INTO BOOK(code, name) VALUES('AAA-003', 'Bad to Learn Java EE');
-
-INSERT INTO MOVIE(code, name) VALUES('A1','Harry Potter');
-INSERT INTO MOVIE(code, name) VALUES('A2','Bananas are happy');
-INSERT INTO MOVIE(code, name) VALUES('A3','The Hunger Games');
-
-INSERT INTO DRINK(code, name) VALUES('AAA-004', 'coke');
-INSERT INTO DRINK(code, name) VALUES('AAA-005', 'sprite');
-INSERT INTO DRINK(code, name) VALUES('AAA-006', 'fanta');
-
-INSERT INTO FOOD (code,name) VALUES ('A','Udon')
-INSERT INTO FOOD (code,name) VALUES ('B','Hot Pot')
-
-INSERT INTO BALL (code,name)VALUES('001','baseball');
-INSERT INTO BALL (code,name)VALUES('002','basketball');
-INSERT INTO BALL (code,name)VALUES('003','volleyball');
-
 INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('pork hamburger','1','其他','豬肉','30');
 INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('招牌鍋貼','2','其他','豬肉','50');
 INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('輕食養生鍋','3','麵','無肉','85');
@@ -39,8 +20,6 @@ INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('第一
 INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('第三小吃部','小小福','07:30','18:00','小小福.jpg');
 INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('第二小吃部','小小福','07:30','18:00','小小福.jpg');
 INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('趴兔','小小福','07:30','18:00','小小福.jpg');
-
-
 INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('金閣屋','大一女美食廣場','11:00','20:00','金閤屋.jpg');-- id = 13
 INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('傅阿嬤的廚房','大一女美食廣場','11:00','20:00','大一女美食廣場.jpg'); -- id = 14
 INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('華克山莊 傳統韓國料理','大一女美食廣場','11:00','20:00','華克山莊.jpg'); -- id = 15
@@ -50,6 +29,12 @@ INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('比司
 INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('蔬食小舖','大一女美食廣場','11:00','20:00','蔬食小舖.jpg');-- id = 19
 INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('日式食堂','大一女美食廣場','11:00','20:00','日式食堂.jpg');-- id = 20
 INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('椰林燒臘','大一女美食廣場','11:00','20:00','椰林燒臘.jpg');-- id = 21
+INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('美味快餐','女九','11:00','20:00','女九.jpg');-- id = 22
+INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('阿諾廚房','女九','11:00','20:00','女九.jpg');-- id = 23
+INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('麥當勞','女九','11:00','20:00','女九.jpg');-- id = 24
+INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('韓風小舖','女九','11:00','20:00','女九.jpg');-- id = 25
+
+
 
 -- category: 飯/麵/水餃/其他
 -- meatcategory: 豬肉/雞肉/鴨肉/牛肉/羊肉/海鮮/無肉
@@ -438,25 +423,76 @@ INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('鴨�
 INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('三寶飯(雞、鴨、叉燒)','21','飯','雞肉鴨肉豬肉','90');
 INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('招牌飯(雞、鴨、燒肉、叉燒)','21','飯','雞肉鴨肉豬肉','100');
 
+-- 美味快餐.jpg id = 22
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('烤雞腿飯','22','飯','雞肉','90');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('烤香雞排飯','22','飯','雞肉','90');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('烤牛肉飯','22','飯','牛肉','90');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('烤豬肉飯','22','飯','豬肉','80');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('紅燒牛肉燴飯','22','飯','牛肉','80');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('烤蒲燒鯛魚飯','22','飯','魚肉','80');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('打拋豬肉飯','22','飯','豬肉','80');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('綠咖哩雞肉飯','22','飯','雞肉','70');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('鮮菇蔬菜飯','22','飯','無肉','60');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('椒麻雞肉飯','22','飯','雞肉','90');
 
+-- 阿諾廚房.jpg id = 23
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('泰式椒麻雞腿飯','23','飯','雞肉','85');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('泰式酸辣雞腿飯','23','飯','雞肉','85');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('炸雞腿飯','23','飯','雞肉','80');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('油淋蔥油雞腿飯','23','飯','雞肉','80');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('叉燒肉飯','23','飯','豬肉','80');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('三合一特餐','23','飯','豬肉雞肉','80');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('海鮮蝦捲飯','23','飯','海鮮','75');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('夢幻排骨飯','23','飯','豬肉','75');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('鯖魚飯','23','飯','魚肉','75');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('香腸飯','23','飯','豬肉','70');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('雞腿排飯','23','飯','雞肉','70');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('滷肉飯套餐','23','飯','豬肉','55');
 
+-- 麥當勞.jpg id = 24
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('大麥克','24','其他','牛肉','69');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('雙層牛肉起司堡','24','其他','牛肉','59');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('安格斯黑牛堡','24','其他','牛肉','99');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('嫩煎雞腿堡','24','其他','雞肉','79');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('麥香雞','24','其他','雞肉','49');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('勁辣雞腿堡','24','其他','雞肉','69');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('黃金起司豬排堡','24','其他','豬肉','49');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('麥香魚','24','其他','魚肉','49');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('千島黃金蝦堡','24','其他','海鮮','69');
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+-- 韓風小舖.jpg id = 25
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('泡菜豆腐鍋','25','飯','無肉','69');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('酸白菜豬肉鍋','25','飯','豬肉','85');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('豬肉鍋','25','飯','豬肉','85');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('牛肉鍋','25','飯','牛肉','88');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('海鮮鍋','25','飯','海鮮','88');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('健康蔬菜拌飯','25','飯','無肉','58');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('泡菜蔬菜拌飯','25','飯','無肉','65');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('豬肉蔬菜拌飯','25','飯','豬肉','75');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('泡菜炒豬肉蔬菜拌飯','25','飯','豬肉','75');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('牛/雞蔬菜拌飯','25','飯','牛肉雞肉','79');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('鐵板香煎雞排飯','25','飯','雞肉','69');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('韓風脆雞飯','25','飯','雞肉','69');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('精緻海陸雙響餐','25','飯','豬肉海鮮','98');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('肉燥雞肉飯','25','飯','雞肉','58');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('韓式花枝排飯','25','飯','海鮮','65');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('炒豬肉飯','25','飯','豬肉','69');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('泡菜炒豬肉飯','25','飯','豬肉','69');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('炒牛肉飯','25','飯','牛肉','75');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('泡菜炒牛肉拌飯','25','飯','牛肉','75');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('泡菜意麵/冬粉','25','麵','無肉','49');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('原味意麵/冬粉','25','麵','無肉','49');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('海鮮意麵/冬粉','25','麵','海鮮','49');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('泡菜泡飯','25','飯','無肉','49');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('原味泡飯','25','飯','無肉','49');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('海鮮泡飯','25','飯','海鮮','49');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('泡菜番茄麵','25','麵','無肉','58');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('海鮮菠菜麵','25','麵','海鮮','58');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('原味全麥麵','25','麵','無肉','58');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('泡菜/原味煮泡麵','25','麵','無肉','58');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('泡菜/原味拉麵','25','麵','無肉','58');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('海鮮煮泡麵','25','麵','海鮮','58');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('海鮮拉麵','25','麵','海鮮','58');
 
 
 
