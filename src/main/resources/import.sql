@@ -26,6 +26,7 @@ INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('蔬食
 INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('日式食堂','大一女美食廣場','11:00','20:00','日式食堂.jpg');-- id = 20
 INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('椰林燒臘','大一女美食廣場','11:00','20:00','椰林燒臘.jpg');-- id = 21
 INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('美味快餐','女九','11:00','20:00','女九.jpg');-- id = 22
+<<<<<<< HEAD
 INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('阿諾廚房','女九','11:00','20:00','女九.jpg');-- id = 23
 INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('麥當勞','女九','11:00','20:00','女九.jpg');-- id = 24
 INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('韓風小舖','女九','11:00','20:00','女九.jpg');-- id = 25
@@ -33,6 +34,12 @@ INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('摩斯
 INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('果小姐','小福2F','11:00','19:00','小福.jpg');-- id = 27
 INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('民豐號','小福2F','11:00','19:00','小福.jpg');-- id = 28
 INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('All Pass 食堂','小福2F','11:00','20:00','小福.jpg');-- id = 29
+=======
+INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('阿諾廚房','活大','11:00','20:00','女九.jpg');-- id = 23
+INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('麥當勞','活大','11:00','20:00','女九.jpg');-- id = 24
+INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('韓風小舖','活大','11:00','20:00','女九.jpg');-- id = 25
+
+>>>>>>> branch 'master' of https://github.com/jakarta99/ntumis107a.git
 
 
 -- category: 飯/麵/水餃/其他
@@ -356,6 +363,8 @@ INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('墨�
 INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('海鮮麵','16','麵','海鮮','90');
 INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('海鮮燉飯','16','飯','海鮮','90');
 
+-- 吉登自助餐
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('吉登自助餐','17','飯','無肉雞肉豬肉牛肉海鮮','70');
 
 -- 蔬食小舖 id = 19
 INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('幸福菜飯','19','飯','無肉','80');
