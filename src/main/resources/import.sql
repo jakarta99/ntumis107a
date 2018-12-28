@@ -7,7 +7,7 @@ INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('紅�
 INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('比斯多早午餐（小福）','小福2F','11:00','19:00','比斯多.jpg');
 INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('四海遊龍','活大','11:00','20:00','四海遊龍.jpg');
 INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('文湯武將','小福2F','11:00','20:00','文湯武醬.jpg');
-INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('摩斯漢堡（早餐）','小福2F','07:00','10:30','摩斯漢堡.jpg');
+INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('摩斯漢堡','小福2F','10:30','22:00','摩斯漢堡.jpg');
 INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('幸好沒錯過你','校外','11:30','21:30','幸好沒錯過你.jpg');
 INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('大盛豬排','校外','11:30','21:00','大盛豬排.jpg');
 INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('韓庭州','校外','11:00','22:00','韓庭州.jpg');
@@ -30,10 +30,9 @@ INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('美味
 INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('阿諾廚房','女九','11:00','20:00','女九.jpg');-- id = 23
 INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('麥當勞','女九','11:00','20:00','女九.jpg');-- id = 24
 INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('韓風小舖','女九','11:00','20:00','女九.jpg');-- id = 25
-INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('摩斯漢堡（午餐及晚餐）','小福2F','10:30','22:00','摩斯漢堡.jpg');-- id = 26
-INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('果小姐','小福2F','11:00','19:00','小福.jpg');-- id = 27
-INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('民豐號','小福2F','11:00','19:00','小福.jpg');-- id = 28
-INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('All Pass 食堂','小福2F','11:00','20:00','小福.jpg');-- id = 29
+INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('果小姐','小福2F','11:00','19:00','小福.jpg');-- id = 26
+INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('民豐號','小福2F','11:00','19:00','小福.jpg');-- id = 27
+INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('All Pass 食堂','小福2F','11:00','20:00','小福.jpg');-- id = 28
 =======
 INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('阿諾廚房','活大','11:00','20:00','女九.jpg');-- id = 23
 INSERT INTO RESTAURANT (name,location,opentime,closetime,images) VALUES ('麥當勞','活大','11:00','20:00','女九.jpg');-- id = 24
@@ -557,15 +556,35 @@ INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('公�
 INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('黃金牛肉麵','3','麵','牛肉','85');
 INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('金鑽炒泡麵','3','麵','無肉','60');
 
--- 摩斯漢堡.jpg id=4 （早餐）
--- 摩斯漢堡.jpg id=26 （午餐及晚餐）
+-- 摩斯漢堡.jpg id=4
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('藜麥燒肉珍珠堡','4','其他','牛肉','75');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('燒肉珍珠堡','4','其他','牛肉','70');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('藜麥薑燒珍珠堡','4','其他','豬肉','70');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('薑燒珍珠堡','4','其他','豬肉','65');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('藜麥海洋珍珠堡','4','其他','海鮮','80');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('海洋珍珠堡','4','其他','海鮮','75');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('藜麥蓮藕牛蒡珍珠堡（素）','4','其他','無肉','80');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('藜麥杏苞姑珍珠堡（素）','4','其他','無肉','75');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('杏苞姑珍珠堡（素）','4','其他','無肉','70');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('藜麥元氣和牛珍珠堡','4','其他','牛肉','110');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('元氣和牛珍珠堡','4','其他','牛肉','105');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('摩斯漢堡','4','其他','牛肉','70');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('摩斯吉士漢堡','4','其他','牛肉','75');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('摩斯鱈魚堡','4','其他','海鮮','70');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('輕檸雙牛堡','4','其他','牛肉','100');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('黃金炸蝦堡','4','其他','海鮮','75');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('摘鮮綠黃金炸蝦堡','4','其他','海鮮','70');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('厚切培根和牛堡','4','其他','牛肉','100');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('摩斯熱狗堡','4','其他','豬肉','55');
+INSERT INTO MEAL (name,restaurantid,category,meatcategory, price) VALUES ('辣味吉利熱狗堡','4','其他','豬肉','70');
 
--- 果小姐 id=27
+
+-- 果小姐 id=26
 INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('秘製大腸麵線','27','其他','豬肉','60');
 INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('清麵線','27','其他','無肉','45');
 INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('招牌海南雞飯','27','飯','雞肉','95');
 
--- 民豐號 id=28
+-- 民豐號 id=27
 INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('五花控肉飯','28','飯','豬肉','90');
 INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('古早味排骨飯','28','飯','豬肉','90');
 INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('糖醋里肌肉飯','28','飯','豬肉','95');
@@ -574,7 +593,7 @@ INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('炸
 INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('雪菜肉絲拉麵','28','麵','豬肉','90');
 INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('榨菜肉絲拉麵（湯/乾）','28','麵','豬肉','65');
 
--- All Pass 食堂 id=29
+-- All Pass 食堂 id=28
 INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('韓式鍋燒烏龍麵','29','麵','豬肉海鮮','95');
 INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('韓式鍋燒意麵','29','麵','豬肉海鮮','95');
 INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('韓式蔬菜拌飯','29','飯','無肉','85');
