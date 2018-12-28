@@ -575,9 +575,15 @@ INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('雪
 INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('榨菜肉絲拉麵（湯/乾）','28','麵','豬肉','65');
 
 -- All Pass 食堂 id=29
-
-
-
+INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('韓式鍋燒烏龍麵','29','麵','豬肉海鮮','95');
+INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('韓式鍋燒意麵','29','麵','豬肉海鮮','95');
+INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('韓式蔬菜拌飯','29','飯','無肉','85');
+INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('韓式雞肉蔬菜拌飯','29','飯','雞肉','90');
+INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('韓式豬肉蔬菜拌飯','29','飯','豬肉','90');
+INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('韓式牛肉蔬菜拌飯','29','飯','牛肉','100');
+INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('韓式春川辣雞飯','29','飯','雞肉','100');
+INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('韓式部隊鍋','29','飯','豬肉','105');
+INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('香蔥雞蛋意麵','29','麵','無肉','90');
 
 
 
