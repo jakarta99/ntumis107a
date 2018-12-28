@@ -584,12 +584,24 @@ INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('韓
 INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('韓式春川辣雞飯','29','飯','雞肉','100');
 INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('韓式部隊鍋','29','飯','豬肉','105');
 INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('香蔥雞蛋意麵','29','麵','無肉','90');
-
-
-
-
-
-
+INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('咖哩雞排飯','29','飯','雞肉','85');
+INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('咖哩豬排飯','29','飯','豬肉','85');
+INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('咖哩起司蛋飯','29','飯','無肉','90');
+INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('燉肉咖哩飯','29','飯','豬肉','105');
+INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('咖哩雞腿飯','29','飯','雞肉','100');
+INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('咖哩唐揚雞塊飯','29','飯','雞肉','100');
+INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('照燒雞腿排飯','29','飯','雞肉','95');
+INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('日式燒肉飯','29','飯','豬肉','100');
+INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('沖繩豬肉塔可飯','29','飯','豬肉','95');
+INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('味噌馬鈴薯燉肉飯','29','飯','雞肉','90');
+INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('南蠻炸雞塊飯','29','飯','雞肉','95');
+INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('照燒肉絲蛋炒飯','29','飯','雞肉','90');
+INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('鮮菇豆腐丼','29','飯','無肉','80');
+INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('泡菜豬肉丼','29','飯','豬肉','90');
+INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('日式炸雞塊丼','29','飯','雞肉','95');
+INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('日式豬排丼','29','飯','豬肉','95');
+INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('去骨雞腿排蓋飯','29','飯','雞肉','100');
+INSERT INTO MEAL (name,restaurantid, category, meatcategory, price) VALUES ('茄汁嫩雞蓋飯','29','飯','雞肉','95');
 
 
 
