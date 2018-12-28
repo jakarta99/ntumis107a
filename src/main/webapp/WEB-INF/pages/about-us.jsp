@@ -9,7 +9,7 @@
 
     <section class="page-section about-heading">
       <div class="container">
-        <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="/images/42583629_1940097012737527_1291615232774373376_n.jpg"alt="">
+        <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="images/about%20us.jpg"alt="">
         <div class="about-heading-content">
           <div class="row">
             <div class="col-xl-9 col-lg-10 mx-auto">
