@@ -13,7 +13,7 @@
         <div class="intro">  
           <div class="intro-text left-0 text-center bg-faded p-5 rounded" style='width:100% ;position: relative'>
        		 <h2 class="section-heading mb-4">
- 				Want to find what to eat?<br/>
+ 				想吃什麼呢？<br/>
       		 </h2>	  
 	     <form action="/search_restaurant_result" method="post">
 			 	<div class="mx auto" style="width: 150px; margin: auto">
